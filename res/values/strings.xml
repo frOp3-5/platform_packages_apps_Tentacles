@@ -1166,4 +1166,7 @@
     <string name="hw_keys_switch_title">Hardware keys switch</string>
     <string name="touch_screen_gesture_title">Touch Screen Gestures Device</string>
 
+    <!-- Superuser -->
+    <string name="supersu_title">SuperSU</string>
+ 
 </resources>
