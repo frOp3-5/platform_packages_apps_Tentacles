@@ -65,4 +65,9 @@
             android:fragment="com.oct.tentacles.fragments.sb.Traffic"
             android:title="@string/network_traffic_title" />
 
+        <com.oct.tentacles.preference.SystemSettingCheckBoxPreference
+        android:key="hide_data_on_wifi"
+        android:title="@string/hide_data_on_wifi_title"
+        android:summary="@string/hide_data_on_wifi_summary" />
+
 </PreferenceScreen>

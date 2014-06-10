@@ -50,4 +50,8 @@
     <string name="title_full_screen_swipe">Quick Swipe</string>
     <string name="summary_full_screen_swipe">Swipe empty space on notification shade, or bottom bar, to show Quick Tiles</string>
     
+    <!-- Hide mobile data when connected to wifi. User defined settings -->
+    <string name="hide_data_on_wifi_title">Hide network meter</string>
+    <string name="hide_data_on_wifi_summary">This will hide mobile network indicator when toggled on</string>
+    
 </resources>
