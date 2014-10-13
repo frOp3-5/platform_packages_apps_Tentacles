@@ -45,7 +45,7 @@ public class RecentsPanel extends SettingsPreferenceFragment implements
         // clear recents position
         mClearAllButton = (ListPreference) findPreference(CLEAR_RECENTS_BUTTON);
         int clearStatus = Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.CLEAR_RECENTS_BUTTON, 4);
+                Settings.System.CLEAR_RECENTS_BUTTON, 0);
         mClearAllButton.setValue(String.valueOf(clearStatus));
         mClearAllButton.setSummary(mClearAllButton.getEntry());
         mClearAllButton.setOnPreferenceChangeListener(this);
