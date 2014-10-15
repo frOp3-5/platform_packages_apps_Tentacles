@@ -2,6 +2,12 @@
 
     <header
         android:title="@string/app_name" />
+        
+	    <header
+	        android:key="@+id/themes_settings"
+	        android:icon="@drawable/ic_settings_themes"
+	        android:title="@string/themes_settings_title"
+	        android:fragment="com.oct.tentacles.fragments.ThemerSettings" />
 
         <header
             android:id="@+id/button_settings"

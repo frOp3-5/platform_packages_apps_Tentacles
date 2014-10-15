@@ -38,8 +38,8 @@
     <!-- Activity titles defined in AndroidManifest.xml -->
     <string name="title_clipboard_share">Copy to Clipboard</string>
 
-    <!-- T-Mobile Theme chooser settings  -->
-    <string name="themes_title">Themes</string>
+    <!-- Themes Settings -->
+    <string name="themes_settings_title">Themes</string>
 
     <!-- Share to clipboard -->
     <string name="clipboard_notification">Copied to clipboard</string>

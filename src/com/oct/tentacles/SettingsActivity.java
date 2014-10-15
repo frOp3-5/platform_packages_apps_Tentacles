@@ -231,6 +231,8 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
         BatterySaverHelper.class.getName(),
         BatteryCpuSettings.class.getName(),
         RamBar.class.getName(),
+        ThemerSettings.class.getName(),
+        ThemesSettings.class.getName(),
         Traffic.class.getName()
     };
 
