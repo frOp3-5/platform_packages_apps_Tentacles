@@ -51,6 +51,12 @@
             android:icon="@drawable/ic_tentacles_pie"
             android:fragment="com.oct.tentacles.fragments.pie.PieTab" />
 
+	<header
+	    android:key="@+id/performance_control"
+	    android:title="@string/performance_control_title"
+	    android:icon="@drawable/ic_settings_performance"
+	    android:fragment="com.oct.tentacles.fragments.PerformanceFragment" />
+
         <header
             android:id="@+id/power_menu_settings"
             android:title="@string/power_menu_title"

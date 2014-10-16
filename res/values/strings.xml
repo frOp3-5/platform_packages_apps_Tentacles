@@ -40,6 +40,9 @@
 
     <!-- Themes Settings -->
     <string name="themes_settings_title">Themes</string>
+    
+    <!-- Performance Control -->
+    <string name="performance_control_title">Performance control</string>
 
     <!-- Share to clipboard -->
     <string name="clipboard_notification">Copied to clipboard</string>
