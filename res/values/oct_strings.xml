@@ -26,4 +26,7 @@
     <!-- Performance Control -->
     <string name="performance_control_title">Performance control</string>
     
+    <!-- Slim's Dark UI -->
+    <string name="dark_ui_switch_title">Dark UI</string>
+    
 </resources>

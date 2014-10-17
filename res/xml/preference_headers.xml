@@ -4,6 +4,12 @@
         android:title="@string/app_name" />
         
 	    <header
+	        android:key="@+id/dark_ui_switch"
+	        android:icon="@drawable/ic_settings_theme"
+	        android:title="@string/dark_ui_switch_title"
+	        android:fragment="com.oct.tentacles.fragments.slim.DarkFragment" />        
+        
+	    <header
 	        android:key="@+id/themes_settings"
 	        android:icon="@drawable/ic_settings_themes"
 	        android:title="@string/themes_settings_title"

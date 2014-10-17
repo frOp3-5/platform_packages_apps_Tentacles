@@ -130,6 +130,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.oct.tentacles.fragments.slim.DarkFragment"
+            android:label="@string/dark_ui_switch_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.oct.tentacles.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.oct.tentacles.fragments.ThemesSettings"
             android:label="@string/themes_settings_title" >
             <intent-filter>

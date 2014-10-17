@@ -39,12 +39,14 @@ import android.widget.TextView;
 
 // fragments import for entry
 import com.android.settings.cyanogenmod.*;
+import com.android.settings.slim.themes.*;
 import com.oct.tentacles.dslv.*;
 import com.oct.tentacles.fragments.*;
 import com.oct.tentacles.fragments.ls.*;
 import com.oct.tentacles.fragments.navbar.*;
 import com.oct.tentacles.fragments.pie.*;
 import com.oct.tentacles.fragments.sb.*;
+import com.oct.tentacles.fragments.slim.*;
 import com.oct.tentacles.fragments.ui.*;
 import com.oct.tentacles.fragments.batterysaver.*;
 import com.oct.tentacles.fragments.installer.*;
@@ -236,6 +238,8 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
         PrivacyFragment.class.getName(),
         CustomPrivacySettings.class.getName(),
         RamBar.class.getName(),
+        DarkFragment.class.getName(),
+        DarkSwitch.class.getName(),
         ThemerSettings.class.getName(),
         ThemesSettings.class.getName(),
         Traffic.class.getName()
