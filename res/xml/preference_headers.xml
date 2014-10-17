@@ -84,6 +84,12 @@
             android:id="@+id/custom_privacy_settings" />
 
         <header
+            android:id="@+id/custom_profile_settings"
+            android:icon="@drawable/ic_settings_profiles"
+            android:fragment="com.oct.tentacles.fragments.cyanogenmod.ProfileFragment"
+            android:title="@string/profile_settings_title" />
+
+        <header
             android:id="@+id/statusbar_settings"
             android:title="@string/status_bar_title"
             android:icon="@drawable/ic_tentacles_sb"

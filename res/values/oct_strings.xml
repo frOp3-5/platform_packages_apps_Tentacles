@@ -17,6 +17,9 @@
 	<!-- CM Privacy -->
 	<string name="custom_privacy_settings_title">Custom Privacy</string>
 
+    <!-- CM profiles -->
+    <string name="profile_settings_title">Custom Profiles</string>
+
     <!-- Superuser -->
     <string name="supersu_title">SuperSU</string>
 

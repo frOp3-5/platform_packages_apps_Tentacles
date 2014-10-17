@@ -41,6 +41,7 @@ import android.widget.TextView;
 import com.android.settings.cyanogenmod.*;
 import com.android.settings.slim.themes.*;
 import com.oct.tentacles.dslv.*;
+import com.oct.tentacles.fragments.cyanogenmod.*;
 import com.oct.tentacles.fragments.*;
 import com.oct.tentacles.fragments.ls.*;
 import com.oct.tentacles.fragments.navbar.*;
@@ -53,7 +54,7 @@ import com.oct.tentacles.fragments.installer.*;
 
 public class SettingsActivity extends PreferenceActivity implements ButtonBarHandler {
 
-    private static final String TAG = "CR_Settings";
+    private static final String TAG = "OCT_Settings";
 
     private static String KEY_USE_ENGLISH_LOCALE = "use_english_locale";
 
@@ -230,6 +231,8 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
         PieTriggerSettings.class.getName(),
         PieTab.class.getName(),
         ProgressBar.class.getName(),
+        ProfileFragment.class.getName(),
+        ProfileSettings.class.getName(),
         BatterySaverSettings.class.getName(),
         BatterySaverHelper.class.getName(),
         BatteryCpuSettings.class.getName(),
