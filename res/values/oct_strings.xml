@@ -14,5 +14,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- CM Privacy -->
 	<string name="custom_privacy_settings_title">Custom Privacy</string>
+
+    <!-- Superuser -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!-- Themes Settings -->
+    <string name="themes_settings_title">Themes</string>
+    
+    <!-- Performance Control -->
+    <string name="performance_control_title">Performance control</string>
+    
 </resources>
