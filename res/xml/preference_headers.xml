@@ -72,6 +72,12 @@
         </header>
 
         <header
+            android:fragment="com.oct.tentacles.PrivacyFragment"
+            android:icon="@drawable/ic_settings_privacy"
+            android:title="@string/custom_privacy_settings_title"
+            android:id="@+id/custom_privacy_settings" />
+
+        <header
             android:id="@+id/statusbar_settings"
             android:title="@string/status_bar_title"
             android:icon="@drawable/ic_tentacles_sb"

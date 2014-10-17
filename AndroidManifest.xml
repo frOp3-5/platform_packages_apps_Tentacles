@@ -103,6 +103,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.oct.tentacles.fragments.PrivacyFragment"
+            android:label="@string/custom_privacy_settings_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.oct.tentacles.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".fragments.pie.PieTab"
             android:label="@string/pie_control_title">
             <intent-filter>
