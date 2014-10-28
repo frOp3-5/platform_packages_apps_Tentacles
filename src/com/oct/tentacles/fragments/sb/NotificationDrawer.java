@@ -34,8 +34,11 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
     private static final String SWIPE_TO_SWITCH_SCREEN_DETECTION = "full_swipe_to_switch_detection";
     private static final String PREF_NOTIFICATION_HIDE_LABELS = "notification_hide_labels";
 
+    private static final String STATUS_BAR_NOTIFICATION_SWIPE_FLOATING = "status_bar_notification_swipe_floating";
+
     private ListPreference mCollapseOnDismiss;
     private CheckBoxPreference mFullScreenDetection;
+    private ListPreference mStatusBarNotificationSwipeFloating;
 
     ListPreference mHideLabels;
 
@@ -51,6 +54,13 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
         mHideLabels.setValue(String.valueOf(hideCarrier));
         mHideLabels.setOnPreferenceChangeListener(this);
         updateHideNotificationLabelsSummary(hideCarrier);
+
+        mStatusBarNotificationSwipeFloating = (ListPreference) findPreference(STATUS_BAR_NOTIFICATION_SWIPE_FLOATING);
+        int StatusBarNotificationSwipeFloatingStatus = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_NOTIFICATION_SWIPE_FLOATING, 0);
+        mStatusBarNotificationSwipeFloating.setValue(String.valueOf(StatusBarNotificationSwipeFloatingStatus));
+        mStatusBarNotificationSwipeFloating.setSummary(mStatusBarNotificationSwipeFloating.getEntry());
+        mStatusBarNotificationSwipeFloating.setOnPreferenceChangeListener(this);
 
         /* Tablet case in handled in PhoneStatusBar
           if (!DeviceUtils.isPhone(getActivity())
@@ -92,6 +102,12 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getContentResolver(),
                 Settings.System.SWIPE_TO_SWITCH_SCREEN_DETECTION, value ? 1 : 0);
+        } else if (preference == mStatusBarNotificationSwipeFloating) {
+            int value = Integer.valueOf((String) objValue);
+            int index = mStatusBarNotificationSwipeFloating.findIndexOfValue((String) objValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_NOTIFICATION_SWIPE_FLOATING, value);
+            mStatusBarNotificationSwipeFloating.setSummary(mStatusBarNotificationSwipeFloating.getEntries()[index]);
             return true;
         }
         return false;
