@@ -38,6 +38,7 @@ import android.widget.Switch;
 import android.widget.TextView;
 
 // fragments import for entry
+import com.android.settings.applications.*;
 import com.android.settings.blacklist.*;
 import com.android.settings.cyanogenmod.*;
 import com.android.settings.privacyguard.*;
@@ -207,6 +208,7 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
     }
 
     private static final String[] ENTRY_FRAGMENTS = {
+		AppOpsDetails.class.getName(),
         ButtonSettings.class.getName(),
         CustomCarrier.class.getName(),
         HeadsUpSettings.class.getName(),
