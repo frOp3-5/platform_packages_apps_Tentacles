@@ -41,6 +41,7 @@ import android.widget.TextView;
 import com.android.settings.blacklist.*;
 import com.android.settings.cyanogenmod.*;
 import com.android.settings.privacyguard.*;
+import com.android.settings.profiles.*;
 import com.android.settings.slim.themes.*;
 import com.oct.tentacles.dslv.*;
 import com.oct.tentacles.fragments.cyanogenmod.*;
@@ -235,6 +236,7 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
         ProgressBar.class.getName(),
         ProfileFragment.class.getName(),
         ProfileSettings.class.getName(),
+        SetupActionsFragment.class.getName(),
         BatterySaverSettings.class.getName(),
         BatterySaverHelper.class.getName(),
         BatteryCpuSettings.class.getName(),
