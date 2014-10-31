@@ -43,6 +43,7 @@ import com.android.settings.blacklist.*;
 import com.android.settings.cyanogenmod.*;
 import com.android.settings.privacyguard.*;
 import com.android.settings.profiles.*;
+import com.android.settings.profiles.triggers.*;
 import com.android.settings.slim.themes.*;
 import com.oct.tentacles.dslv.*;
 import com.oct.tentacles.fragments.cyanogenmod.*;
@@ -240,6 +241,7 @@ public class SettingsActivity extends PreferenceActivity implements ButtonBarHan
         ProfileSettings.class.getName(),
         SetupActionsFragment.class.getName(),
         SetupTriggersFragment.class.getName(),
+        NfcTriggerFragment.class.getName(),
         BatterySaverSettings.class.getName(),
         BatterySaverHelper.class.getName(),
         BatteryCpuSettings.class.getName(),
