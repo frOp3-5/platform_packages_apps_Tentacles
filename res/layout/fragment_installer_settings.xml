@@ -24,11 +24,11 @@
 
     <LinearLayout style="@style/settingsFragmentStyle">
 
-        <com.aokp.romcontrol.widgets.CategorySeparator
+        <com.oct.tentacles.widgets.CategorySeparator
                 style="@style/defaultSize"
                 android:title="@string/category_installer"/>
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -36,11 +36,11 @@
                 android:title="@string/persist_enable"
                 android:summary="@string/persist_enable_summary"  />
 
-        <com.aokp.romcontrol.widgets.CategorySeparator
+        <com.oct.tentacles.widgets.CategorySeparator
                 style="@style/defaultSize"
                 android:title="@string/category_advanced"/>
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -49,7 +49,7 @@
                 android:title="@string/persist_prop_density"
                 android:summary="@string/persist_prop_density_summary" />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -58,7 +58,7 @@
                 android:title="@string/persist_file_hosts"
                 android:summary="@string/persist_file_hosts_summary" />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 

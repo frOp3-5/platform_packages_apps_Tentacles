@@ -11,7 +11,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := android-support-v13 android-support-v4
 LOCAL_SRC_FILES := $(call all-subdir-java-files, src)
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, res)
 
-LOCAL_PACKAGE_NAME := ROMControl
+LOCAL_PACKAGE_NAME := Tentacles
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PACKAGE)

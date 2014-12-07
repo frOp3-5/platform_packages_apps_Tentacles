@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-    <com.aokp.romcontrol.widgets.CategorySeparator
+    <com.oct.tentacles.widgets.CategorySeparator
             style="@style/defaultSize"/>
 
     <ListView

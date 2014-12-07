@@ -40,6 +40,6 @@
             android:divider="@android:color/transparent"
             android:dividerHeight="0dp"
             android:background="@color/navigation_drawer_background"
-            tools:context="com.aokp.romcontrol.fragments.NavigationDrawerFragment"/>
+            tools:context="com.oct.tentacles.fragments.NavigationDrawerFragment"/>
 
 </RelativeLayout>

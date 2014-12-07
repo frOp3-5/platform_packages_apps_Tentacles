@@ -23,11 +23,11 @@
 
     <LinearLayout style="@style/settingsFragmentStyle">
 
-        <com.aokp.romcontrol.widgets.CategorySeparator
+        <com.oct.tentacles.widgets.CategorySeparator
             style="@style/defaultSize"
             android:title="@string/category_sound"/>
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:title="@string/safe_headset_volume_title"
@@ -36,7 +36,7 @@
             android:defaultValue="true"
             />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:title="@string/volume_adjust_sounds_enable_title"

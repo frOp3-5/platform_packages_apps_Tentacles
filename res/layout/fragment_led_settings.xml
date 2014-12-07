@@ -129,7 +129,7 @@
                 android:layout_below="@id/led_test"
                 android:layout_marginTop="5dp">
 
-                <com.aokp.romcontrol.settings.CheckboxSetting
+                <com.oct.tentacles.settings.CheckboxSetting
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/led_screen_on"
@@ -147,7 +147,7 @@
                 android:layout_below="@id/screen_on"
                 android:layout_marginTop="5dp">
 
-                <com.aokp.romcontrol.settings.CheckboxSetting
+                <com.oct.tentacles.settings.CheckboxSetting
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/setting_toggle_charging_led"

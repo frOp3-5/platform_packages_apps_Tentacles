@@ -26,8 +26,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import com.aokp.romcontrol.R;
-import com.aokp.romcontrol.settings.ColorPickerSetting;
+import com.oct.tentacles.R;
+import com.oct.tentacles.settings.ColorPickerSetting;
 
 public class ColorPickerDialog
         extends

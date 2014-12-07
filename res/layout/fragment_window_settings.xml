@@ -34,7 +34,7 @@
                 android:focusable="false" />
         </LinearLayout>
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
             android:id="@+id/animation_type"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

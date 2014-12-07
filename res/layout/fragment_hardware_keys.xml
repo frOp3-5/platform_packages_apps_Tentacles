@@ -24,7 +24,7 @@
 
     <LinearLayout style="@style/settingsFragmentStyle">
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_customize_hardware_keys"
@@ -34,7 +34,7 @@
                 android:defaultValue="false"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_key_home_long_press"
@@ -45,7 +45,7 @@
                 android:entryValues="@array/setting_keyActionValues"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_key_home_double_tap"
@@ -57,7 +57,7 @@
                 android:entryValues="@array/setting_keyActionValues"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_key_menu"
@@ -69,7 +69,7 @@
                 android:entryValues="@array/setting_keyActionValues"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_key_menu_long_press"
@@ -81,7 +81,7 @@
                 android:entryValues="@array/setting_keyActionValues"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_key_search"
@@ -93,7 +93,7 @@
                 android:entryValues="@array/setting_keyActionValues"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_key_search_long_press"
@@ -105,7 +105,7 @@
                 android:entryValues="@array/setting_keyActionValues"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_key_recents"
@@ -117,7 +117,7 @@
                 android:entryValues="@array/setting_keyActionValues"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_key_recents_long_press"
@@ -129,7 +129,7 @@
                 android:entryValues="@array/setting_keyActionValues"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_key_back_long_press"
@@ -139,7 +139,7 @@
                 android:entryValues="@array/setting_keyActionValues"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_key_camera"
@@ -149,7 +149,7 @@
                 android:entryValues="@array/setting_keyActionValues"
                 />
 
-        <com.aokp.romcontrol.widgets.CategorySeparator
+        <com.oct.tentacles.widgets.CategorySeparator
                 android:title="@string/category_backlight"
                 android:id="@+id/category_backlight"
                 style="@style/defaultSize" />
@@ -208,11 +208,11 @@
                 android:max="30"
                 android:defaultValue="5" />
 
-        <com.aokp.romcontrol.widgets.CategorySeparator
+        <com.oct.tentacles.widgets.CategorySeparator
                 android:title="@string/category_advanced"
                 style="@style/defaultSize"/>
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -222,7 +222,7 @@
                 android:defaultValue="true"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/volume_key_cursor_control"

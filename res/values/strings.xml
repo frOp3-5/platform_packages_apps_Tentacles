@@ -19,8 +19,8 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">ROM control</string>
-    <string name="rom_control">ROM control</string>
+    <string name="app_name">Tentacles</string>
+    <string name="rom_control">Tentacles</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 

@@ -27,7 +27,7 @@
 
     <LinearLayout style="@style/settingsFragmentStyle">
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -37,7 +37,7 @@
                 android:defaultValue="true"
                 />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -47,11 +47,11 @@
                 android:defaultValue="false"
                 />
 
-        <com.aokp.romcontrol.widgets.CategorySeparator
+        <com.oct.tentacles.widgets.CategorySeparator
                 style="@style/defaultSize"
                 android:title="@string/category_statusbar_notification"/>
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -61,7 +61,7 @@
                 android:defaultValue="true"
                 />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -71,7 +71,7 @@
                 android:defaultValue="true"
                 />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -81,7 +81,7 @@
                 android:defaultValue="true"
                 />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -91,11 +91,11 @@
                 android:defaultValue="true"
                 />
 
-        <com.aokp.romcontrol.widgets.CategorySeparator
+        <com.oct.tentacles.widgets.CategorySeparator
                 style="@style/defaultSize"
                 android:title="@string/category_statusbar_clock"/>
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/statusbar_clock_am_pm_style"
@@ -109,7 +109,7 @@
                 android:defaultValue="2"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/statusbar_clock_style"
@@ -123,7 +123,7 @@
                 android:defaultValue="1"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/statusbar_clock_weekday"
@@ -137,7 +137,7 @@
                 android:defaultValue="0"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/statusbar_clock_date"
@@ -151,7 +151,7 @@
                 android:defaultValue="0"
                 />
 
-        <com.aokp.romcontrol.settings.ColorPickerSetting
+        <com.oct.tentacles.settings.ColorPickerSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/statusbar_clock_color"
@@ -162,11 +162,11 @@
                 aokp:colorPickerShowAlphaSlider="false"
                 />
 
-        <com.aokp.romcontrol.widgets.CategorySeparator
+        <com.oct.tentacles.widgets.CategorySeparator
                 style="@style/defaultSize"
                 android:title="@string/category_statusbar_battery"/>
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/setting_status_bar_battery_style"
@@ -176,7 +176,7 @@
                 android:entryValues="@array/values_battery_submenu"
                 android:defaultValue="1" />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -187,7 +187,7 @@
                 android:defaultValue="false"
                 />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -198,7 +198,7 @@
                 android:defaultValue="false"
                 />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -208,11 +208,11 @@
                 android:defaultValue="false"
                 />
 
-        <com.aokp.romcontrol.widgets.CategorySeparator
+        <com.oct.tentacles.widgets.CategorySeparator
             style="@style/defaultSize"
             android:title="@string/category_signalbars"/>
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
@@ -221,7 +221,7 @@
             android:key="statusbar_signal_text"
             />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -230,7 +230,7 @@
                 android:key="statusbar_hide_signal_bars"
                 />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -240,11 +240,11 @@
                 android:defaultValue="false"
                 />
 
-        <com.aokp.romcontrol.widgets.CategorySeparator
+        <com.oct.tentacles.widgets.CategorySeparator
                 style="@style/defaultSize"
                 android:title="@string/status_bar_network_title"/>
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -254,7 +254,7 @@
                 android:defaultValue="false"
                 />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -264,7 +264,7 @@
                 android:defaultValue="false"
                 />
 
-        <com.aokp.romcontrol.settings.CheckboxSetting
+        <com.oct.tentacles.settings.CheckboxSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -274,7 +274,7 @@
                 android:defaultValue="false"
                 />
 
-        <com.aokp.romcontrol.settings.ColorPickerSetting
+        <com.oct.tentacles.settings.ColorPickerSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/status_bar_network_stats_text_color"
@@ -285,7 +285,7 @@
                 aokp:colorPickerShowAlphaSlider="false"
                 />
 
-        <com.aokp.romcontrol.settings.SingleChoiceSetting
+        <com.oct.tentacles.settings.SingleChoiceSetting
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 

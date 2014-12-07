@@ -20,7 +20,7 @@ package com.astuetz.viewpager.extensions;
 
 import java.util.Locale;
 
-import com.aokp.romcontrol.R;
+import com.oct.tentacles.R;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

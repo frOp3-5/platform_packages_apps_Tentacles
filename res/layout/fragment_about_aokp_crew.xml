@@ -9,7 +9,7 @@
             android:id="@+id/crew"
             style="@style/settingsFragmentStyle">
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="Roman"
                 aokp:nameDev="romanbb"
                 aokp:twitterHandle="romanbb"
@@ -19,7 +19,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="Whitehawkx"
                 aokp:nameDev="Whitehawkx"
                 aokp:twitterHandle="whitehawkx"
@@ -29,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="kwes"
                 aokp:nameDev="kwes"
                 aokp:twitterHandle="kwes1020"
@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="Zaphod-Beeble"
                 aokp:nameDev="Zaphod-Beeble"
                 aokp:twitterHandle="Dont_Panic_Zaph"
@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="ProTekk"
                 aokp:nameDev="ProTekk"
                 aokp:twitterHandle="protekkfzs"
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="Khas Mek"
                 aokp:nameDev="Khas Mek"
                 aokp:twitterHandle="KhasMek"
@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="sethyx"
                 aokp:nameDev="sethyx"
                 aokp:twitterHandle="sethyx"
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="MarcLandis"
                 aokp:nameDev="MarcLandis"
                 aokp:twitterHandle="MarcLandis"
@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="justreboot"
                 aokp:nameDev="Just Reboot"
                 aokp:twitterHandle="just_reboot"
@@ -102,7 +102,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="nitroz"
                 aokp:nameDev="Nitroz"
                 aokp:twitterHandle="NitrozK"
@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="sixstringsg"
                 aokp:nameDev="sixstringsg"
                 aokp:twitterHandle="sixstringsg"
@@ -123,7 +123,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="adamthecashew"
                 aokp:nameDev="adamthecashew"
                 aokp:twitterHandle="adamthecashew"
@@ -134,7 +134,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="xoom"
                 aokp:nameDev="xoomdev"
                 aokp:twitterHandle="xoomdev"
@@ -145,7 +145,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="stevespear"
                 aokp:nameDev="Stevespear426"
                 aokp:twitterHandle="stevespeartweet"
@@ -156,7 +156,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="birdman"
                 aokp:nameDev="birdman"
                 aokp:twitterHandle="_mrbirdman_"
@@ -167,7 +167,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="akellar"
                 aokp:nameDev="akellar"
                 aokp:twitterHandle="AKBraves"
@@ -178,7 +178,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="bajee11"
                 aokp:nameDev="bajee11"
                 aokp:twitterHandle="bajee11"
@@ -189,7 +189,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="DAGr8"
                 aokp:nameDev="DAGr8"
                 aokp:twitterHandle="Saurom_Projekt"
@@ -199,7 +199,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="dhacker29"
                 aokp:nameDev="dhacker29"
                 aokp:twitterHandle="dhacker29"
@@ -210,7 +210,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="graffixnyc"
                 aokp:nameDev="graffixnyc"
                 aokp:twitterHandle="graffixnyc"
@@ -221,7 +221,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="jbirdvegas"
                 aokp:nameDev="JBirdVegas"
                 aokp:twitterHandle="JBird_Vegas"
@@ -232,7 +232,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="k900"
                 aokp:nameDev="K900"
                 aokp:twitterHandle="AOKP_ROM"
@@ -243,7 +243,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="rohan32"
                 aokp:nameDev="rohan32"
                 aokp:twitterHandle="rohanXm"
@@ -254,7 +254,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="willdeberry"
                 aokp:nameDev="willdeberry"
                 aokp:twitterHandle="willdeberry"
@@ -265,7 +265,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="bmc08gt"
                 aokp:nameDev="bmc08gt"
                 aokp:twitterHandle="bmc08gt"
@@ -276,7 +276,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="tdm"
                 aokp:nameDev="tdm"
                 aokp:twitterHandle="AOKP_ROM"
@@ -287,7 +287,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="qnhoang81"
                 aokp:nameDev="qnhoang81"
                 aokp:twitterHandle="AOKP_ROM"
@@ -298,7 +298,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="Hashcode"
                 aokp:nameDev="Hashcode"
                 aokp:twitterHandle="Hashcode0f"
@@ -309,7 +309,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="scar45"
                 aokp:nameDev="scar45"
                 aokp:twitterHandle="scar45"
@@ -320,7 +320,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="championswimmer"
                 aokp:nameDev="championswimmer"
                 aokp:twitterHandle="championswimmer"
@@ -331,7 +331,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="kecinzer"
                 aokp:nameDev="Petr Reznicek"
                 aokp:twitterHandle="kecinzer"
@@ -342,7 +342,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="Andrew"
                 aokp:nameDev="BytecodeMe"
                 aokp:twitterHandle="BytecodeMe"
@@ -353,7 +353,7 @@
                 android:layout_height="wrap_content"
                 />
 
-        <com.aokp.romcontrol.widgets.DeveloperPreference
+        <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="elelinux"
                 aokp:nameDev="Esa Laukkanen"
                 aokp:twitterHandle="elelinux"
