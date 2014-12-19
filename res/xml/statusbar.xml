@@ -58,6 +58,12 @@
             android:title="@string/status_bar_clock" />
 
          <Preference
+            android:key="traffic"
+            android:fragment="com.teamoctos.tentacles.fragments.Traffic"
+            android:layout="@layout/preference_traffic"
+            android:title="@string/traffic_category" />
+
+         <Preference
             android:key="quicksettings"
             android:fragment="com.teamoctos.tentacles.fragments.QuickSettings"
             android:layout="@layout/preference_systemui_tuner_qs"
@@ -74,5 +80,4 @@
                 <extra android:name="tuner" android:value="status_bar" />
             </intent>
          </PreferenceScreen>
-
 </PreferenceScreen>
