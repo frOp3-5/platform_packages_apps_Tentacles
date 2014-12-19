@@ -27,11 +27,9 @@
             style="@style/settingsFragmentStyle">
 
         <com.oct.tentacles.widgets.DeveloperPreference
-                aokp:nameDev="AOKP"
-                aokp:twitterHandle="AOKP_ROM"
+                aokp:nameDev="Team-OctOS"
                 aokp:githubLink="@string/github_aokp"
-                aokp:donateLink="@string/donate_aokp"
-                aokp:emailDev="github@aokp.co"
+                aokp:emailDev="Teamoctos@gmail.com"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -65,6 +63,7 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+				android:visibility="gone"
                 />
 
         <com.oct.tentacles.settings.UrlSetting
@@ -74,6 +73,7 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+				android:visibility="gone"
                 />
 
     </LinearLayout>
