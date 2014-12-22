@@ -28,8 +28,9 @@
 
         <com.oct.tentacles.widgets.DeveloperPreference
                 aokp:nameDev="Team-OctOS"
+                aokp:twitterHandle="teamoctos"
                 aokp:githubLink="@string/github_aokp"
-                aokp:emailDev="Teamoctos@gmail.com"
+                aokp:emailDev="teamoctos@gmail.com"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
