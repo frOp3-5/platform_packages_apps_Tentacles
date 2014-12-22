@@ -23,13 +23,13 @@
              android:layout_height="match_parent"
         >
 
-    <ImageView android:src="@drawable/aokp_logo_big"
+    <ImageView android:src="@drawable/octos_logo_big"
                android:layout_height="320dp"
                android:layout_width="320dp"
                android:layout_alignParentBottom="true"
-               android:layout_alignParentRight="true"
-               android:layout_marginBottom="-100dp"
-               android:layout_marginRight="-100dp"
+               android:layout_alignParentLeft="true"
+               android:layout_marginBottom="-50dp"
+               android:layout_marginLeft="-10dp"
                />
 
     <ListView

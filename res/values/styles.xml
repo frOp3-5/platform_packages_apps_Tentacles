@@ -20,7 +20,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Material">
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
         <item name="android:actionBarStyle">@android:style/Widget.Material.ActionBar.Solid</item>
     </style>
 
