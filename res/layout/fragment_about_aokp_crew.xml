@@ -19,6 +19,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
+         <com.oct.tentacles.widgets.DeveloperPreference
+                android:title="cjkacz"
+                aokp:nameDev="cjkacz"
+                aokp:twitterHandle="teamoctos"
+                aokp:githubLink="@string/github_cjkacz"
+                aokp:emailDev="teamoctos@gmail.com"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
 
     </LinearLayout>
 </ScrollView>
