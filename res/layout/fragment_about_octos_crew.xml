@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:aokp="http://schemas.android.com/apk/res-auto"
+            xmlns:octos="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/scrollView">
@@ -11,20 +11,20 @@
 
         <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="hedwig34"
-                aokp:nameDev="hedwig34"
-                aokp:twitterHandle="hedwig34"
-                aokp:githubLink="@string/github_hedwig34"
-                aokp:emailDev="hedwig34@gmail.com"
+                octos:nameDev="hedwig34"
+                octos:twitterHandle="hedwig34"
+                octos:githubLink="@string/github_hedwig34"
+                octos:emailDev="hedwig34@gmail.com"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
          <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="cjkacz"
-                aokp:nameDev="cjkacz"
-                aokp:twitterHandle="cjkacz_"
-                aokp:githubLink="@string/github_cjkacz"
-                aokp:emailDev="cjkacz@teamoctos.com"
+                octos:nameDev="cjkacz"
+                octos:twitterHandle="cjkacz_"
+                octos:githubLink="@string/github_cjkacz"
+                octos:emailDev="cjkacz@teamoctos.com"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

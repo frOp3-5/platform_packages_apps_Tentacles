@@ -18,7 +18,7 @@
 -->
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:aokp="http://schemas.android.com/apk/res-auto"
+            xmlns:octos="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/scrollView">
@@ -27,40 +27,40 @@
             style="@style/settingsFragmentStyle">
 
         <com.oct.tentacles.widgets.DeveloperPreference
-                aokp:nameDev="Team-OctOS"
-                aokp:twitterHandle="teamoctos"
-                aokp:githubLink="@string/github_aokp"
-                aokp:emailDev="teamoctos@gmail.com"
+                octos:nameDev="Team-OctOS"
+                octos:twitterHandle="teamoctos"
+                octos:githubLink="@string/github_octos"
+                octos:emailDev="teamoctos@gmail.com"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
 
         <com.oct.tentacles.settings.UrlSetting
-                android:id="@+id/aokp"
-                android:title="@string/aokp_website_title"
-                android:summary="@string/aokp_website_summary"
-                aokp:url="@string/url_aokp"
+                android:id="@+id/octos"
+                android:title="@string/octos_website_title"
+                android:summary="@string/octos_website_summary"
+                octos:url="@string/url_octos"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 />
 
         <com.oct.tentacles.settings.UrlSetting
-                android:id="@+id/aokp_review"
-                android:title="@string/aokp_review_title"
-                android:summary="@string/aokp_review_summary"
-                aokp:url="@string/url_aokp_gerrit"
+                android:id="@+id/octos_review"
+                android:title="@string/octos_review_title"
+                android:summary="@string/octos_review_summary"
+                octos:url="@string/url_octos_gerrit"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 />
 
         <com.oct.tentacles.settings.UrlSetting
-                android:id="@+id/aokp_irc"
-                android:title="@string/aokp_irc_title"
-                android:summary="@string/aokp_irc_summary"
-                aokp:url="@string/url_aokp_irc"
+                android:id="@+id/octos_irc"
+                android:title="@string/octos_irc_title"
+                android:summary="@string/octos_irc_summary"
+                octos:url="@string/url_octos_irc"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
                 />
 
         <com.oct.tentacles.settings.UrlSetting
-                android:id="@+id/aokp_mgerrit_changelog"
+                android:id="@+id/octos_mgerrit_changelog"
                 android:title="@string/mgerrit_changelog_title"
                 android:summary="@string/mgerrit_changelog_summary"
 

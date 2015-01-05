@@ -31,8 +31,6 @@ import android.view.MenuItem;
 import android.view.View;
 import com.oct.tentacles.fragments.about.AboutFragment;
 import com.oct.tentacles.fragments.NavigationDrawerFragment;
-import com.oct.tentacles.fragments.StatusbarSettingsFragment;
-import com.oct.tentacles.fragments.SoundSettingsFragment;
 import com.oct.tentacles.fragments.about.AboutTabHostFragment;
 
 
@@ -91,14 +89,8 @@ public class MainActivity extends Activity
         Fragment fragment = null;
 
         // blame Google for not using Java 7 yet
-        if ("about_aokp".equals(item)) {
+        if ("about_octos".equals(item)) {
             fragment = new AboutTabHostFragment();
-        }
-        else if ("statusbar".equals(item)) {
-            fragment = new StatusbarSettingsFragment();
-        }
-        else if ("sound".equals(item)) {
-            fragment = new SoundSettingsFragment();
         }
         else {
             // who knows

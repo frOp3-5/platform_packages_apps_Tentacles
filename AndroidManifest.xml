@@ -28,11 +28,11 @@
         <activity
                 android:name="com.oct.tentacles.MainActivity"
                 android:configChanges="orientation|keyboardHidden"
-                android:label="@string/rom_control" />
+                android:label="@string/tentacles_app_name" />
 
         <activity
                 android:name="com.oct.tentacles.LauncherActivity"
-                android:label="@string/rom_control">
+                android:label="@string/tentacles_app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

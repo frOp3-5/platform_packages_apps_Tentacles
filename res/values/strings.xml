@@ -20,14 +20,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name">Tentacles</string>
-    <string name="rom_control">Tentacles</string>
+    <string name="tentacles_app_name">Tentacles</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <!-- Header Strings -->
     <string name="category_general">General</string>
     <string name="category_statusbar">Statusbar</string>
-    <string name="category_about_aokp">About</string>
+    <string name="category_about_octos">About</string>
     <string name="category_hardware_keys">Hardware keys</string>
     <string name="category_lockscreen">Lockscreen</string>
     <string name="category_installer">Installer</string>
@@ -57,28 +57,26 @@
 
     <!-- About -->
     <string name="devs">The Crew</string>
-    <string name="aokp" translatable="false">Team-OctOS</string>
-    <string name="aokp_website_title">Team-OctOS website</string>
-    <string name="aokp_website_summary">www.teamoctos.com - Find all newest releases here</string>
-    <string name="aokp_review_title">Team-OctOS Code Review - Gerrit</string>
-    <string name="aokp_review_summary">View Tean-OctOS\'s Gerrit instance</string>
-    <string name="aokp_irc_title">Join us on IRC</string>
-    <string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
-    <string name="about_aokp">About Team-Octos</string>
-    <string name="about_aokp_summary">@null</string>
-    <string name="donate_aokp" translatable="false">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DBBCGTVJ984YG
+    <string name="octos" translatable="false">Team-OctOS</string>
+    <string name="octos_website_title">Team-OctOS website</string>
+    <string name="octos_website_summary">www.teamoctos.com - Find all newest releases here</string>
+    <string name="octos_review_title">Team-OctOS Code Review - Gerrit</string>
+    <string name="octos_review_summary">View Tean-OctOS\'s Gerrit instance</string>
+    <string name="octos_irc_title">Join us on IRC</string>
+    <string name="octos_irc_summary">#teamkang @ irc.freenode.net</string>
+    <string name="about_octos">About Team-Octos</string>
+    <string name="about_octos_summary">@null</string>
+    <string name="donate_octos" translatable="false">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=DBBCGTVJ984YG
     </string>
-    <string name="github_aokp" translatable="false">https://github.com/Team-OctOS</string>
+    <string name="github_octos" translatable="false">https://github.com/Team-OctOS</string>
     <string name="github_hedwig34" translatable="false">https://github.com/hedwig34</string>
     <string name="github_cjkacz" translatable="false">https://github.com/cjkacz</string>
 
-    <string name="url_aokp" translatable="false">http://teamoctos.com/</string>
-    <string name="github_zaph" translatable="false">https://github.com/Zaphod-Beeblebrox</string>
-    <string name="url_aokp_gerrit" translatable="false">http://review.teamoctos.com:8080/</string>
-    <string name="url_aokp_irc" translatable="false">http://webchat.freenode.net/?channels=teamkang</string>
-    <string name="android_open_kang_project" translatable="false">Team-OctOS</string>
-    <string name="kanglings">The Crew</string>
-
+    <string name="url_octos" translatable="false">http://teamoctos.com/</string>
+    <string name="url_octos_gerrit" translatable="false">http://review.teamoctos.com:8080/</string>
+    <string name="url_octos_irc" translatable="false">http://webchat.freenode.net/?channels=teamkang</string>
+    <string name="team_octos_project" translatable="false">Team-OctOS</string>
+    <string name="team_octos_members">The Crew</string>
     <!--Battery Icon selection-->
     <string name="battery_status_icon_title">Status icon</string>
     <string name="battery_bar_percent">Battery bar &amp; percent</string>

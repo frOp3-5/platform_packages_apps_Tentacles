@@ -17,7 +17,7 @@ public class AboutCrewFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_about_aokp_crew, container, false);
+        View root = inflater.inflate(R.layout.fragment_about_octos_crew, container, false);
 
         Random rng = new Random();
 
