@@ -22,9 +22,9 @@
          <com.oct.tentacles.widgets.DeveloperPreference
                 android:title="cjkacz"
                 aokp:nameDev="cjkacz"
-                aokp:twitterHandle="teamoctos"
+                aokp:twitterHandle="cjkacz_"
                 aokp:githubLink="@string/github_cjkacz"
-                aokp:emailDev="teamoctos@gmail.com"
+                aokp:emailDev="cjkacz@teamoctos.com"
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
