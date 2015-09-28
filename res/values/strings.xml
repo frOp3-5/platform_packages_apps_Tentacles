@@ -484,4 +484,9 @@
     <!-- Custom battery tile -->
     <string name="status_bar_battery_style_tile_title">Custom battery tile style</string>
     <string name="status_bar_battery_style_tile_summary">Allow to set the same icon style chosen for the statusbar battery</string>
+
+    <!-- Lockscreen Media art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
 </resources>
