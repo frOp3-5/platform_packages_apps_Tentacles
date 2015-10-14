@@ -44,5 +44,16 @@
              android:fragment="com.teamoctos.tentacles.fragments.StatusBarSettings"
              android:layout="@layout/preference_statusbar"
              android:title="@string/statusbar_settings_title"
-             android:icon="@drawable/ic_settings_statusbar" />  
+             android:icon="@drawable/ic_settings_statusbar" />
+
+         <PreferenceScreen
+            android:key="systemuituner"
+            android:title="@string/systemuituner"
+            android:layout="@layout/preference_systemui_tuner" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.TunerActivity" />
+         </PreferenceScreen>
+
 </PreferenceScreen>

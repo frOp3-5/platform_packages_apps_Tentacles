@@ -218,4 +218,6 @@
     <!-- Substratum-->
     <string name="substratum_title">Substratum</string>
 
+    <string name="systemuituner">UI tuner</string>
+
 </resources>
