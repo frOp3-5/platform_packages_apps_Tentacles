@@ -239,4 +239,8 @@
     <string name="clock_font_size_22">22</string>
     <string name="clock_font_size_23">23</string>
 
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
+    <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+
 </resources>

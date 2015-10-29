@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 Team_OctOS
+ * Copyright (C) 2017 Team_OctOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -36,6 +36,10 @@ import com.android.settings.Utils;
 
 public class StatusbarNotifications extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
+
+    private SwitchPreference mForceExpanded;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +47,13 @@ public class StatusbarNotifications extends SettingsPreferenceFragment implement
         addPreferencesFromResource(R.xml.statusbar_notifications);
 
         final ContentResolver resolver = getActivity().getContentResolver();
+
+        mForceExpanded = (SwitchPreference) findPreference(FORCE_EXPANDED_NOTIFICATIONS);
+        mForceExpanded.setOnPreferenceChangeListener(this);
+        int ForceExpanded = Settings.System.getInt(getContentResolver(),
+                FORCE_EXPANDED_NOTIFICATIONS, 0);
+        mForceExpanded.setChecked(ForceExpanded != 0);
+
     }
 
     @Override
@@ -55,7 +66,14 @@ public class StatusbarNotifications extends SettingsPreferenceFragment implement
         super.onResume();
     }
 
-    public boolean onPreferenceChange(Preference preference, Object value) {
-         return true;
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if  (preference == mForceExpanded) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(), FORCE_EXPANDED_NOTIFICATIONS,
+                    value ? 1 : 0);
+            return true;
+        }
+        return false;
     }
 }
