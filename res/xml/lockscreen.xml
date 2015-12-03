@@ -33,6 +33,11 @@
         android:summary="@string/lockscreen_visualizer_summary"
         android:defaultValue="true"/>
 
+    <com.teamoctos.tentacles.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_quick_unlock_control"
+        android:title="@string/unlock_quick_unlock_control_title"
+        android:summary="@string/unlock_quick_unlock_control_summary" />
+
 <!--    <cyanogenmod.preference.CMSecureSettingSwitchPreference
         android:key="lock_screen_weather_enabled"
         android:title="@string/lockscreen_weather_enabled_title"
