@@ -1,9 +1,5 @@
 /*
-<<<<<<< HEAD:src/com/teamoctos/tentacles/fragments/PowerMenu.java
- * Copyright (C) 2016 Team-OctOS
-=======
- * Copyright (C) 2014-2016 The Dirty Unicorns Project
->>>>>>> ee52854... Add MiscTweaks category:src/com/dirtyunicorns/dutweaks/fragments/PowerMenu.java
+ * Copyright (C) 2016 Team_OctOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,6 +24,7 @@ import android.os.UserHandle;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.support.v7.preference.ListPreference;
+import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
@@ -37,24 +34,15 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
-public class PowerMenu extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
-    private static final String KEY_ADVANCED_REBOOT = "advanced_reboot";
-
-    private ListPreference mAdvancedReboot;
+public class MiscTweaks extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.powermenu);
+        addPreferencesFromResource(R.xml.misctweaks);
 
         final ContentResolver resolver = getActivity().getContentResolver();
-
-        mAdvancedReboot = (ListPreference) findPreference(KEY_ADVANCED_REBOOT);
-        mAdvancedReboot.setValue(String.valueOf(Settings.Secure.getInt(
-                getContentResolver(), Settings.Secure.ADVANCED_REBOOT, 1)));
-        mAdvancedReboot.setSummary(mAdvancedReboot.getEntry());
-        mAdvancedReboot.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -68,15 +56,6 @@ public class PowerMenu extends SettingsPreferenceFragment implements OnPreferenc
     }
 
     public boolean onPreferenceChange(Preference preference, Object value) {
-        if (preference == mAdvancedReboot) {
-            Settings.Secure.putInt(getContentResolver(), Settings.Secure.ADVANCED_REBOOT,
-                    Integer.valueOf((String) value));
-            mAdvancedReboot.setValue(String.valueOf(value));
-            mAdvancedReboot.setSummary(mAdvancedReboot.getEntry());
-        } else {
-            return false;
-        }
-
-        return true;
+         return true;
     }
 }
