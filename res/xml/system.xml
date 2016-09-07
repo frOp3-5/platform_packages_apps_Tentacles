@@ -23,9 +23,15 @@
 
          <Preference
             android:key="expanded_desktop"
-            android:fragment="com.dirtyunicorns.dutweaks.fragments.ExpandedDesktop"
+            android:fragment="com.teamoctos.tentacles.fragments.ExpandedDesktop"
             android:layout="@layout/preference_expanded_desktop"
             android:title="@string/expanded_desktop_category" />
+
+         <Preference
+            android:key="misctweaks"
+            android:fragment="com.teamoctos.tentacles.fragments.MiscTweaks"
+            android:layout="@layout/preference_misctweaks"
+            android:title="@string/misctweaks_category" />
 
          <Preference
             android:key="powermenu"
