@@ -26,6 +26,7 @@
 
     <!-- Categories -->
     <string name="power_menu_title">Power menu</string>
+    <string name="recents_category">Recents</string>
     <string name="button_settings">Buttons</string>
     <string name="privacy_title">Privacy</string>
     <string name="profiles_settings_title">System profiles</string>
