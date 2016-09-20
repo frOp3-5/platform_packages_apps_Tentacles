@@ -39,4 +39,14 @@
             android:layout="@layout/preference_powermenu"
             android:title="@string/powermenu_category" />
 
+        <PreferenceScreen
+            android:key="supersu_settings"
+            android:layout="@layout/preference_supersu"
+            android:title="@string/supersu_title">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="eu.chainfire.supersu"
+                android:targetClass="eu.chainfire.supersu.MainActivity" />
+        </PreferenceScreen>
+
 </PreferenceScreen>
