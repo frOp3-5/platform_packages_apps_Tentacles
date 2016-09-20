@@ -38,6 +38,7 @@ public class System extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "System";
     private static final String KERNELADIUTOR_APP_PACKAGE = "com.kerneladiutor.mod";
+    private static final String SUPERSU_APP_PACKAGE = "eu.chainfire.supersu";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -51,6 +52,9 @@ public class System extends SettingsPreferenceFragment implements
             getPreferenceScreen().removePreference(findPreference("kerneladiutor_settings"));
         }
 
+        if (!Utils.isPackageInstalled(getActivity(), SUPERSU_APP_PACKAGE)) {
+            getPreferenceScreen().removePreference(findPreference("supersu_settings"));
+        }
     }
 
     @Override
