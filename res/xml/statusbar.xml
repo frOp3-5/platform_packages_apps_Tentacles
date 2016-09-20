@@ -33,4 +33,11 @@
             android:layout="@layout/preference_systemui_tuner_qs"
             android:title="@string/quicksettings_category" />
 
+         <PreferenceScreen
+             android:id="@+id/statusbar_settings"
+             android:fragment="com.teamoctos.tentacles.fragments.StatusBarSettings"
+             android:layout="@layout/preference_statusbar"
+             android:title="@string/statusbar_settings_title"
+             android:icon="@drawable/ic_settings_statusbar" />
+ 
 </PreferenceScreen>
