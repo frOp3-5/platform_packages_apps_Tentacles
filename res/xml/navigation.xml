@@ -30,4 +30,11 @@
             android:targetPackage="org.cyanogenmod.cmparts"
             android:targetClass="org.cyanogenmod.cmparts.input.ButtonSettings" />
     </PreferenceScreen>
+
+     <Preference
+        android:key="navigation_options"
+        android:fragment="com.teamoctos.tentacles.fragments.NavbarSettings"
+        android:layout="@layout/preference_navigation"
+        android:title="@string/navigationbar_settings_title" />
+
 </PreferenceScreen>
