@@ -201,4 +201,7 @@
     <string name="network_traffic_hidearrow_title">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the traffic monitor activity arrows</string>
 
+    <!-- KernelAdiutor-Mod -->
+    <string name="kerneladiutor_title">KernelAdiutor-Mod</string>
+
 </resources>
