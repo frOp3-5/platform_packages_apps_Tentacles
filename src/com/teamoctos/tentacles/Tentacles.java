@@ -106,12 +106,14 @@ public class Tentacles extends SettingsPreferenceFragment {
         mContainer.setPadding(30, 30, 30, 30);
     }
 
+/*
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         menu.add(0, MENU_HELP, 0, R.string.tentacles_dialog_title)
                 .setIcon(R.drawable.ic_tentacles_info)
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
     }
+*/
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
