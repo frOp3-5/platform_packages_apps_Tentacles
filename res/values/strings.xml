@@ -29,4 +29,7 @@
     <string name="tentacles_dialog_message">If you find a bug with any of these settings, please contact the team on G+.</string>
     <string name="tentacles_dialog_toast">READ THE WHOLE THING!</string>
 
+    <!-- KernelAdiutor-Mod -->
+    <string name="kerneladiutor_title">KernelAdiutor-Mod</string>
+
 </resources>

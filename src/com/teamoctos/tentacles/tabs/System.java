@@ -37,6 +37,7 @@ import com.android.settings.Utils;
 public class System extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "System";
+    private static final String KERNELADIUTOR_APP_PACKAGE = "com.kerneladiutor.mod";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,11 @@ public class System extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.system);
 
         ContentResolver resolver = getActivity().getContentResolver();
+
+        if (!Utils.isPackageInstalled(getActivity(), KERNELADIUTOR_APP_PACKAGE)) {
+            getPreferenceScreen().removePreference(findPreference("kerneladiutor_settings"));
+        }
+
     }
 
     @Override
