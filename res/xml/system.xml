@@ -27,6 +27,16 @@
             android:layout="@layout/preference_expanded_desktop"
             android:title="@string/expanded_desktop_category" />
 
+         <PreferenceScreen
+            android:key="kerneladiutor_settings"
+            android:layout="@layout/preference_kerneladiutor"
+            android:title="@string/kerneladiutor_title">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.kerneladiutor.mod"
+                android:targetClass="com.grarak.kerneladiutor.MainActivity" />
+         </PreferenceScreen>
+
          <Preference
             android:key="misctweaks"
             android:fragment="com.teamoctos.tentacles.fragments.MiscTweaks"
