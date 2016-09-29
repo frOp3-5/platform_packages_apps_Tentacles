@@ -308,4 +308,7 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
+    <!-- Substratum-->
+    <string name="substratum_title">Substratum</string>
+
 </resources>
