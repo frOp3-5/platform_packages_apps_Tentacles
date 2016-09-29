@@ -49,6 +49,17 @@
             android:layout="@layout/preference_powermenu"
             android:title="@string/powermenu_category" />
 
+        <!-- Substratum -->
+        <PreferenceScreen
+                android:key="substratum_settings"
+                android:layout="@layout/preference_substratum"
+                android:title="@string/substratum_title">     
+		<intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="projekt.substratum"
+                android:targetClass="projekt.substratum.LaunchActivity" />
+        </PreferenceScreen>
+
         <PreferenceScreen
             android:key="supersu_settings"
             android:layout="@layout/preference_supersu"
