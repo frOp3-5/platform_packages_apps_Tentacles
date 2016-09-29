@@ -218,4 +218,7 @@
     <string name="quick_pulldown_right">Right</string>
     <string name="quick_pulldown_always">Always</string>
 
+    <!-- Substratum-->
+    <string name="substratum_title">Substratum</string>
+
 </resources>
