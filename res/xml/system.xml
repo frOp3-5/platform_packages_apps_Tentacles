@@ -41,6 +41,17 @@
             android:targetClass="org.cyanogenmod.cmparts.PrivacySettings" />
     </PreferenceScreen>
 
+     <!-- Substratum -->
+     <PreferenceScreen
+                android:key="substratum_settings"
+                android:layout="@layout/preference_substratum"
+                android:title="@string/substratum_title">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="projekt.substratum"
+                android:targetClass="projekt.substratum.LaunchActivity" />
+    </PreferenceScreen>
+
     <PreferenceScreen
         android:key="profiles_settings"
         android:title="@string/profiles_settings_title"

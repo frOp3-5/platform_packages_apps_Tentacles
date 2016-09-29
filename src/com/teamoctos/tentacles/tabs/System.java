@@ -39,6 +39,7 @@ public class System extends SettingsPreferenceFragment implements
     private static final String TAG = "System";
     private static final String KERNELADIUTOR_APP_PACKAGE = "com.kerneladiutor.mod";
     private static final String SUPERSU_APP_PACKAGE = "eu.chainfire.supersu";
+    private static final String SUBSTRATUM_APP_PACKAGE = "projekt.substratum";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -48,12 +49,16 @@ public class System extends SettingsPreferenceFragment implements
 
         ContentResolver resolver = getActivity().getContentResolver();
 
+        if (!Utils.isPackageInstalled(getActivity(), SUPERSU_APP_PACKAGE)) {
+            getPreferenceScreen().removePreference(findPreference("supersu_settings"));
+        }
+
         if (!Utils.isPackageInstalled(getActivity(), KERNELADIUTOR_APP_PACKAGE)) {
             getPreferenceScreen().removePreference(findPreference("kerneladiutor_settings"));
         }
 
-        if (!Utils.isPackageInstalled(getActivity(), SUPERSU_APP_PACKAGE)) {
-            getPreferenceScreen().removePreference(findPreference("supersu_settings"));
+        if (!Utils.isPackageInstalled(getActivity(), SUBSTRATUM_APP_PACKAGE)) {
+            getPreferenceScreen().removePreference(findPreference("substratum_settings"));
         }
     }
 
@@ -78,4 +83,3 @@ public class System extends SettingsPreferenceFragment implements
     }
 
 }
-
