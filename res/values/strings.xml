@@ -232,4 +232,8 @@
     <string name="keyguard_torch_title">Lockscreen torch</string>
     <string name="keyguard_torch_summary">Longpress power button while screen is off to turn on flashlight</string>
 
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">Advanced data tile</string>
+    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+
 </resources>
