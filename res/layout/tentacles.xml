@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2014-2015 The Dirty Unicorns Project
+<!--  Copyright (C) 2014-2015 Team-OctOS
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
     android:orientation="vertical"
     android:fitsSystemWindows="true">
 
-    <com.dirtyunicorns.dutweaks.PagerSlidingTabStrip
+    <com.teamoctos.tentacles.PagerSlidingTabStrip
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="48dp" />
@@ -33,6 +33,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        tools:context=".DirtyTweaks"/>
+        tools:context=".Tentacles"/>
 
 </LinearLayout>

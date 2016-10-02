@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The Dirty Unicorns Project
+ * Copyright (C) 2016 Team-OctOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks.tabs;
+package com.teamoctos.tentacles.tabs;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -34,22 +34,22 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-public class MultiTasking extends SettingsPreferenceFragment implements
+public class System extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-    private static final String TAG = "MultiTasking";
+    private static final String TAG = "System";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.multitasking);
+        addPreferencesFromResource(R.xml.system);
 
         ContentResolver resolver = getActivity().getContentResolver();
     }
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.DIRTYTWEAKS;
+        return MetricsEvent.TENTACLES;
     }
 
     @Override
