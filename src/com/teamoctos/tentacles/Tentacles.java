@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The Dirty Unicorns Project
+ * Copyright (C) 2016 Team-OctOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks;
+package com.teamoctos.tentacles;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -47,12 +47,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.dirtyunicorns.dutweaks.tabs.System;
-import com.dirtyunicorns.dutweaks.tabs.Lockscreen;
-import com.dirtyunicorns.dutweaks.tabs.StatusBar;
-import com.dirtyunicorns.dutweaks.tabs.Navigation;
-import com.dirtyunicorns.dutweaks.tabs.MultiTasking;
-import com.dirtyunicorns.dutweaks.PagerSlidingTabStrip;
+import com.teamoctos.tentacles.tabs.System;
+import com.teamoctos.tentacles.tabs.Lockscreen;
+import com.teamoctos.tentacles.tabs.StatusBar;
+import com.teamoctos.tentacles.tabs.Navigation;
+import com.teamoctos.tentacles.tabs.MultiTasking;
+import com.teamoctos.tentacles.PagerSlidingTabStrip;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
@@ -60,7 +60,7 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DirtyTweaks extends SettingsPreferenceFragment {
+public class Tentacles extends SettingsPreferenceFragment {
 
     private static final int MENU_HELP  = 0;
 
@@ -74,7 +74,7 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mContainer = container;
 
-        View view = inflater.inflate(R.layout.dirtytweaks, container, false);
+        View view = inflater.inflate(R.layout.tentacles, container, false);
         mViewPager = (ViewPager) view.findViewById(R.id.pager);
         mTabs = (PagerSlidingTabStrip) view.findViewById(R.id.tabs);
         StatusBarAdapter StatusBarAdapter = new StatusBarAdapter(getFragmentManager());
@@ -97,7 +97,7 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.DIRTYTWEAKS;
+        return MetricsEvent.TENTACLES;
     }
 
     @Override
@@ -108,8 +108,8 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(0, MENU_HELP, 0, R.string.dirtytweaks_dialog_title)
-                .setIcon(R.drawable.ic_dirtytweaks_info)
+        menu.add(0, MENU_HELP, 0, R.string.tentacles_dialog_title)
+                .setIcon(R.drawable.ic_tentacles_info)
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
     }
 
@@ -119,7 +119,7 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
             case MENU_HELP:
                 showDialogInner(MENU_HELP);
                 Toast.makeText(getActivity(),
-                (R.string.dirtytweaks_dialog_toast),
+                (R.string.tentacles_dialog_toast),
                 Toast.LENGTH_LONG).show();
                 return true;
             default:
@@ -148,8 +148,8 @@ public class DirtyTweaks extends SettingsPreferenceFragment {
             switch (id) {
                 case MENU_HELP:
                     return new AlertDialog.Builder(getActivity())
-                    .setTitle(R.string.dirtytweaks_dialog_title)
-                    .setMessage(R.string.dirtytweaks_dialog_message)
+                    .setTitle(R.string.tentacles_dialog_title)
+                    .setMessage(R.string.tentacles_dialog_message)
                     .setCancelable(false)
                     .setNegativeButton(R.string.dlg_ok,
                         new DialogInterface.OnClickListener() {

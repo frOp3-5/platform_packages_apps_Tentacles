@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--  Copyright (C) 2014-2016 The Dirty Unicorns Project
+<!--  Copyright (C) 2016 Team-OctOS
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -25,8 +25,8 @@
     <string name="multitasking_category">Multi-Tasking</string>
 
     <!-- Dialog -->
-    <string name="dirtytweaks_dialog_title">Help Us, Help You!!</string>
-    <string name="dirtytweaks_dialog_message">Unfortunately we are not wizards!\n\nSo if you find a bug with any of these settings, please open up a ticket on Jira or contact a DU developer with the following.\n\n1. Logcat or Last_Kmsg\n2. Kernel and Mods used\n3. Useful information\n\nIf you fail to report something, do not expect things to be fixed. Remember, we are not wizards so we do miss things.</string>
-    <string name="dirtytweaks_dialog_toast">READ THE WHOLE THING!</string>
+    <string name="tentacles_dialog_title">Help Us, Help You!!</string>
+    <string name="tentacles_dialog_message">If you find a bug with any of these settings, please contact the team on G+.</string>
+    <string name="tentacles_dialog_toast">READ THE WHOLE THING!</string>
 
 </resources>
