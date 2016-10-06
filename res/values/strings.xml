@@ -33,6 +33,7 @@
     <string name="quicksettings_category">Quick settings</string>
     <string name="traffic_category">Traffic indicators</string>
     <string name="breathing_notifications_category">Breathing Notifications</string>
+    <string name="omniswitch_category">OmniSwitch</string>
 
     <!-- Dialog -->
     <string name="tentacles_dialog_title">About Team OctOS</string>
