@@ -154,6 +154,9 @@
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
+    <!-- Phh superuser -->
+    <string name="superuser_title">Superuser</string>
+
     <!-- Status bar - Clock -->
     <string name="statusbar_settings_title">Time and date</string>
     <string name="status_bar_clock_title">Clock settings</string>

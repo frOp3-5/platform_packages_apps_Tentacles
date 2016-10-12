@@ -37,6 +37,7 @@ import com.android.settings.Utils;
 public class System extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "System";
+    private static final String SUPERUSER_APP_PACKAGE = "me.phh.superuser";
     private static final String SUPERSU_APP_PACKAGE = "eu.chainfire.supersu";
     private static final String KERNELADIUTOR_APP_PACKAGE = "com.kerneladiutor.mod";
     private static final String SUBSTRATUM_APP_PACKAGE = "projekt.substratum";
@@ -48,6 +49,10 @@ public class System extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.system);
 
         ContentResolver resolver = getActivity().getContentResolver();
+
+        if (!Utils.isPackageInstalled(getActivity(), SUPERUSER_APP_PACKAGE)) {
+            getPreferenceScreen().removePreference(findPreference("superuser_settings"));
+        }
 
         if (!Utils.isPackageInstalled(getActivity(), SUPERSU_APP_PACKAGE)) {
             getPreferenceScreen().removePreference(findPreference("supersu_settings"));
