@@ -151,6 +151,9 @@ public class Recents extends SettingsPreferenceFragment implements OnPreferenceC
         if (omniRecents) {
             mOmniRecents.setEnabled(true);
             mStockRecents.setEnabled(false);
+        } else if (!Utils.isPackageInstalled(getActivity(), OMNISWITCH_PACKAGE_NAME)) {
+            mOmniRecents.setEnabled(false);
+            mStockRecents.setEnabled(true);
         } else {
             mOmniRecents.setEnabled(true);
             mStockRecents.setEnabled(true);
