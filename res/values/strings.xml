@@ -299,4 +299,7 @@
     <!-- Substratum-->
     <string name="substratum_title">Substratum</string>
 
+    <!-- Lockscreen Shortcuts -->
+    <string name="lockscreen_targets_title">Bottom L/R shortcuts</string>
+
 </resources>
