@@ -283,4 +283,7 @@
     <!-- KernelAdiutor-Mod -->
     <string name="kerneladiutor_title">KernelAdiutor-Mod</string>
 
+    <!-- Lockscreen Shortcuts -->
+    <string name="lockscreen_targets_title">Bottom L/R shortcuts</string>
+
 </resources>
