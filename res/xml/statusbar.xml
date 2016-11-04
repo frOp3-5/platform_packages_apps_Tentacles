@@ -46,6 +46,7 @@
              android:title="@string/statusbar_settings_title"
              android:icon="@drawable/ic_settings_statusbar" />
 
+<!--
          <PreferenceScreen
             android:key="systemui_tuner_statusbar"
             android:title="@string/statusbar_items_category"
@@ -55,5 +56,6 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
          </PreferenceScreen>
+-->
 
 </PreferenceScreen>
