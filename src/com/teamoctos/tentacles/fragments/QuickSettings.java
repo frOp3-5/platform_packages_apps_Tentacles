@@ -63,10 +63,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
-    private static final String PREF_ROWS_PORTRAIT = "qs_rows_portrait";
-    private static final String PREF_ROWS_LANDSCAPE = "qs_rows_landscape";
-    private static final String PREF_COLUMNS = "qs_columns";
-    private static final String KEY_SYSUI_QQS_COUNT = "sysui_qqs_count_key";
+    private static final String PREF_COLUMNS = "qs_layout_columns";
 
     private static final String DAYLIGHT_HEADER_PACK = "daylight_header_pack";
     private static final String DEFAULT_HEADER_PACKAGE = "com.android.systemui";
@@ -79,10 +76,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private CustomSeekBarPreference mHeaderShadow;
     private PreferenceScreen mHeaderBrowse;
     private String mDaylightHeaderProvider;
-    private CustomSeekBarPreference mRowsPortrait;
-    private CustomSeekBarPreference mRowsLandscape;
     private CustomSeekBarPreference mQsColumns;
-    private CustomSeekBarPreference mSysuiQqsCount;
 
     private static final int MY_USER_ID = UserHandle.myUserId();
 
@@ -160,30 +154,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
         mHeaderBrowse = (PreferenceScreen) findPreference(CUSTOM_HEADER_BROWSE);
         mHeaderBrowse.setEnabled(isBrowseHeaderAvailable());
 
-        mRowsPortrait = (CustomSeekBarPreference) findPreference(PREF_ROWS_PORTRAIT);
-        int rowsPortrait = Settings.Secure.getInt(resolver,
-                Settings.Secure.QS_ROWS_PORTRAIT, 3);
-        mRowsPortrait.setValue(rowsPortrait / 1);
-        mRowsPortrait.setOnPreferenceChangeListener(this);
-
-        defaultValue = getResources().getInteger(com.android.internal.R.integer.config_qs_num_rows_landscape_default);
-        mRowsLandscape = (CustomSeekBarPreference) findPreference(PREF_ROWS_LANDSCAPE);
-        int rowsLandscape = Settings.Secure.getInt(resolver,
-                Settings.Secure.QS_ROWS_LANDSCAPE, defaultValue);
-        mRowsLandscape.setValue(rowsLandscape / 1);
-        mRowsLandscape.setOnPreferenceChangeListener(this);
-
         mQsColumns = (CustomSeekBarPreference) findPreference(PREF_COLUMNS);
-        int columnsQs = Settings.Secure.getInt(resolver,
-                Settings.Secure.QS_COLUMNS, 3);
+        int columnsQs = Settings.System.getInt(resolver,
+                Settings.System.QS_LAYOUT_COLUMNS, 3);
         mQsColumns.setValue(columnsQs / 1);
         mQsColumns.setOnPreferenceChangeListener(this);
 
-        mSysuiQqsCount = (CustomSeekBarPreference) findPreference(KEY_SYSUI_QQS_COUNT);
-        int SysuiQqsCount = Settings.Secure.getInt(resolver,
-                Settings.Secure.QQS_COUNT, 5);
-        mSysuiQqsCount.setValue(SysuiQqsCount / 1);
-        mSysuiQqsCount.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -236,25 +212,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             mHeaderProvider.setSummary(mHeaderProvider.getEntries()[valueIndex]);
             mDaylightHeaderPack.setEnabled(value.equals(mDaylightHeaderProvider));
             return true;
-        } else if (preference == mRowsPortrait) {
-            int rowsPortrait = (Integer) objValue;
-            Settings.Secure.putInt(getActivity().getContentResolver(),
-                    Settings.Secure.QS_ROWS_PORTRAIT, rowsPortrait * 1);
-            return true;
-        } else if (preference == mRowsLandscape) {
-            int rowsLandscape = (Integer) objValue;
-            Settings.Secure.putInt(getActivity().getContentResolver(),
-                    Settings.Secure.QS_ROWS_LANDSCAPE, rowsLandscape * 1);
-            return true;
         } else if (preference == mQsColumns) {
             int qsColumns = (Integer) objValue;
-            Settings.Secure.putInt(getActivity().getContentResolver(),
-                    Settings.Secure.QS_COLUMNS, qsColumns * 1);
-            return true;
-        } else if (preference == mSysuiQqsCount) {
-            int SysuiQqsCount = (Integer) objValue;
-            Settings.Secure.putInt(getActivity().getContentResolver(),
-                    Settings.Secure.QQS_COUNT, SysuiQqsCount * 1);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.QS_LAYOUT_COLUMNS, qsColumns * 1);
             return true;
         }
         return false;
