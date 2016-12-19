@@ -24,6 +24,12 @@
     <string name="navigation_category">Navigation</string>
     <string name="multitasking_category">Multi-Tasking</string>
 
+    <!-- Categories -->
+    <string name="statusbar_notifications_category">Notifications</string>
+    <!-- Status bar -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
     <!-- Dialog -->
     <string name="tentacles_dialog_title">About Team OctOS</string>
 
