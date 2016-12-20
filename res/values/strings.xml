@@ -28,9 +28,14 @@
     <string name="status_bar_battery_style_category">Battery</string>
     <string name="status_bar_clock">Clock &amp; Date</string>
     <string name="statusbar_notifications_category">Notifications</string>
+    <string name="quicksettings_category">Quick settings</string>
     <!-- Status bar -->
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_off">Off</string>
+    <string name="status_bar_quick_qs_pulldown_left">Left</string>
+    <string name="status_bar_quick_qs_pulldown_right">Right</string>
 
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_style_title">Clock style</string>
