@@ -33,4 +33,10 @@
             android:layout="@layout/preference_statusbar_notifications"
             android:title="@string/statusbar_notifications_category" />
 
+         <Preference
+            android:key="statusbarclock"
+            android:fragment="com.teamoctos.tentacles.fragments.StatusbarClock"
+            android:layout="@layout/preference_statusbarclock"
+            android:title="@string/status_bar_clock" />
+
 </PreferenceScreen>
