@@ -21,24 +21,44 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <PreferenceScreen
-            android:key="kerneladiutor_settings"
-            android:layout="@layout/preference_kerneladiutor"
-            android:title="@string/kerneladiutor_title">
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="com.kerneladiutor.mod"
-                android:targetClass="com.grarak.kerneladiutor.MainActivity" />
-         </PreferenceScreen>
+    <PreferenceScreen
+        android:key="kerneladiutor_settings"
+        android:layout="@layout/preference_kerneladiutor"
+        android:title="@string/kerneladiutor_title">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.kerneladiutor.mod"
+            android:targetClass="com.grarak.kerneladiutor.MainActivity" />
+    </PreferenceScreen>
 
-        <PreferenceScreen
-            android:key="supersu_settings"
-            android:layout="@layout/preference_supersu"
-            android:title="@string/supersu_title">
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="eu.chainfire.supersu"
-                android:targetClass="eu.chainfire.supersu.MainActivity" />
-        </PreferenceScreen>
+    <PreferenceScreen
+        android:key="privacy_settings"
+        android:title="@string/privacy_title"
+        android:layout="@layout/preference_privacy" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="org.cyanogenmod.cmparts"
+            android:targetClass="org.cyanogenmod.cmparts.PrivacySettings" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="profiles_settings"
+        android:title="@string/profiles_settings_title"
+        android:layout="@layout/preference_profiles" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="org.cyanogenmod.cmparts"
+            android:targetClass="org.cyanogenmod.cmparts.profiles.ProfilesSettings" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="supersu_settings"
+        android:layout="@layout/preference_supersu"
+        android:title="@string/supersu_title">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="eu.chainfire.supersu"
+            android:targetClass="eu.chainfire.supersu.MainActivity" />
+    </PreferenceScreen>
 
 </PreferenceScreen>
