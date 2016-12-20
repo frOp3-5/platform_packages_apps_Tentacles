@@ -25,6 +25,7 @@
     <string name="multitasking_category">Multi-Tasking</string>
 
     <!-- Categories -->
+    <string name="button_settings">Buttons</string>
     <string name="status_bar_battery_style_category">Battery</string>
     <string name="status_bar_clock">Clock &amp; Date</string>
     <string name="statusbar_notifications_category">Notifications</string>
