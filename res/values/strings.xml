@@ -29,6 +29,8 @@
     <string name="status_bar_clock">Clock &amp; Date</string>
     <string name="statusbar_notifications_category">Notifications</string>
     <string name="quicksettings_category">Quick settings</string>
+    <string name="statusbar_items_category">Statusbar items</string>
+
     <!-- Status bar -->
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
