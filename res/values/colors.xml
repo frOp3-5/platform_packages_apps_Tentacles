@@ -17,15 +17,8 @@
 
 <resources>
 
-    <color name="white">#FFF</color>
-    <color name="background_tab_pressed">#1AFFFFFF</color>
-    <color name="material_pixel_blue_bright">@*android:color/material_pixel_blue_bright</color>
-    <color name="icon_tint_color">@color/material_pixel_blue_bright</color>
-
     <!-- Expanded desktop -->
     <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
     <drawable name="expanded_item_bg">@android:color/background_light</drawable>
-    <color name="expanded_button_color_normal">#4CAF50</color>
-    <color name="expanded_button_color_close">#F44336</color>
 
 </resources>
