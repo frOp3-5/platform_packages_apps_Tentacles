@@ -36,6 +36,10 @@
     <!-- Dialog -->
     <string name="tentacles_dialog_title">About Team OctOS</string>
 
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Enable Pixel home animation</string>
+    <string name="pixel_navbar_anim_summary">Enables the Pixel\'s home button animations</string>
+
     <!-- Immersive Recents -->
     <string name="immersive_recents_title">Immersive Recents</string>
     <string name="immersive_recents_summary">Change the view of the recents screen</string>
