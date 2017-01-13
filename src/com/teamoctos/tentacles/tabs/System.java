@@ -40,6 +40,7 @@ public class System extends SettingsPreferenceFragment implements
     private static final String KERNELADIUTOR_APP_PACKAGE = "com.kerneladiutor.mod";
     private static final String SUPERSU_APP_PACKAGE = "eu.chainfire.supersu";
     private static final String SUBSTRATUM_APP_PACKAGE = "projekt.substratum";
+    private static final String OCTOTA_APP_PACKAGE = "com.fusionjack.octota";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,6 +60,10 @@ public class System extends SettingsPreferenceFragment implements
 
         if (!Utils.isPackageInstalled(getActivity(), SUBSTRATUM_APP_PACKAGE)) {
             getPreferenceScreen().removePreference(findPreference("substratum_settings"));
+        }
+
+        if (!Utils.isPackageInstalled(getActivity(), OCTOTA_APP_PACKAGE)) {
+            getPreferenceScreen().removePreference(findPreference("octota_settings"));
         }
     }
 

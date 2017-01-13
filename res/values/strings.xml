@@ -109,6 +109,9 @@
     <!-- Substratum-->
     <string name="substratum_title">Substratum</string>
 
+    <!-- OctOTA-->
+    <string name="octota_title">OTA Updater</string>
+
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
     <string name="show_network_traffic_state">Status bar traffic monitor</string>
