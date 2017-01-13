@@ -20,5 +20,7 @@
     <!-- Expanded desktop -->
     <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
     <drawable name="expanded_item_bg">@android:color/background_light</drawable>
-
+    
+    <color name="material_pixel_blue_bright">@*android:color/material_pixel_blue_bright</color>
+    <color name="icon_tint_color">@color/material_pixel_blue_bright</color>
 </resources>

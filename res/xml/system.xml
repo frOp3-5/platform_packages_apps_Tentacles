@@ -43,6 +43,17 @@
             android:layout="@layout/preference_misctweaks"
             android:title="@string/misctweaks_category" />
 
+         <!-- OctOTA -->
+         <PreferenceScreen
+            android:key="octota_settings"
+            android:layout="@layout/preference_octota"
+            android:title="@string/octota_title">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.fusionjack.octota"
+                android:targetClass="com.fusionjack.octota.MainActivity" />
+         </PreferenceScreen>
+
          <Preference
             android:key="powermenu"
             android:fragment="com.teamoctos.tentacles.fragments.PowerMenu"

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--  Copyright (C) 2016 Team-OctOS
+
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
   (at your option) any later version
+
   This program is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   GNU General Public License for more details.
+
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
@@ -32,13 +35,8 @@
     <string name="breathing_notifications_category">Breathing Notifications</string>
     <string name="omniswitch_category">OmniSwitch</string>
     <string name="carrier_label_category">Carrier label</string>
-
     <!-- Dialog -->
     <string name="tentacles_dialog_title">About Team OctOS</string>
-
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Enable Pixel home animation</string>
-    <string name="pixel_navbar_anim_summary">Enables the Pixel\'s home button animations</string>
 
     <!-- Immersive Recents -->
     <string name="immersive_recents_title">Immersive Recents</string>
@@ -186,12 +184,6 @@
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
-
-    <!-- Substratum-->
-    <string name="substratum_title">Substratum</string>
-
-    <!-- OctOTA-->
-    <string name="octota_title">OTA Updater</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
@@ -356,7 +348,5 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Enable Pixel navbar animation</string>
-    <string name="pixel_navbar_anim_summary">Requires a SystemUI restart</string>
+
 </resources>
