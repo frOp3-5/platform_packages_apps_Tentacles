@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015-2016 The Dirty Unicorns Project
+<!-- Copyright (C) 2015-2017 The Dirty Unicorns Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -34,30 +34,6 @@
         android:entries="@array/status_bar_quick_qs_pulldown_entries"
         android:entryValues="@array/status_bar_quick_qs_pulldown_values"
         android:defaultValue="0" />
-
-    <PreferenceCategory
-        android:key="qs_tiles_category"
-        android:title="@string/qs_tiles_category">
-
-    <com.teamoctos.tentacles.preference.SecureSettingSwitchPreference
-        android:key="qs_data_advanced"
-        android:title="@string/qs_advanced_data_title"
-        android:summary="@string/qs_advanced_data_summary"
-        android:defaultValue="false" />
-
-    <com.teamoctos.tentacles.preference.SecureSettingSwitchPreference
-        android:key="qs_advanced_wifi"
-        android:title="@string/qs_advanced_wifi_title"
-        android:summary="@string/qs_advanced_wifi_summary"
-        android:defaultValue="false" />
-
-    <com.teamoctos.tentacles.preference.SecureSettingSwitchPreference
-        android:key="qs_bt_advanced"
-        android:title="@string/qs_advanced_bt_title"
-        android:summary="@string/qs_advanced_bt_summary"
-        android:defaultValue="false" />
-
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="qs_layout_category"
@@ -95,13 +71,23 @@
         settings:units=""
         android:persistent="false" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="qs_tiles_category"
+        android:title="@string/qs_tiles_category">
+
     <cyanogenmod.preference.CMSystemSettingSwitchPreference
         android:key="status_bar_battery_style_tile"
         android:title="@string/status_bar_battery_style_tile_title"
         android:summary="@string/status_bar_battery_style_tile_summary"
         android:defaultValue="true" />
 
-    </PreferenceCategory>
+    <com.teamoctos.tentacles.preference.SecureSettingSwitchPreference
+        android:key="qs_easy_toggle"
+        android:title="@string/qs_easy_toggle_title"
+        android:summary="@string/qs_easy_toggle_summary"
+        android:defaultValue="false" />
 
     <ListPreference
         android:key="qs_tile_animation_style"
@@ -116,6 +102,8 @@
         android:entries="@array/qs_tile_animation_duration_entries"
         android:entryValues="@array/qs_tile_animation_duration_values"
         android:persistent="false" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/qs_header_category">
