@@ -359,4 +359,7 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Enable Pixel navbar animation</string>
     <string name="pixel_navbar_anim_summary">Requires a SystemUI restart</string>
+    <!-- Three finger swipe screenshot -->
+    <string name="three_finger_gesture">Three finger screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers across the screen to screenshot</string>
 </resources>
