@@ -61,4 +61,9 @@
         android:defaultValue="true"
         android:dependency="volume_rocker_wake" />
 
+     <PreferenceScreen
+        android:fragment="com.teamoctos.tentacles.fragments.VolumeStepsSettings"
+        android:key="vol_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary" />     
 </PreferenceScreen>
