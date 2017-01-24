@@ -356,12 +356,15 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Enable Pixel navbar animation</string>
-    <string name="pixel_navbar_anim_summary">Requires a SystemUI restart</string>
+    <string name="pixel_navbar_anim_summary">No reboot required</string>
+
     <!-- Three finger swipe screenshot -->
     <string name="three_finger_gesture">Three finger screenshot</string>
     <string name="three_finger_gesture_summary">Swipe three fingers across the screen to screenshot</string>
+
     <!-- Volume Steps -->
     <string name="volume_steps_title">Volume steps</string>
     <string name="volume_steps_summary">Customize volume steps</string>
@@ -373,6 +376,7 @@
     <string name="volume_steps_system_title">Volume steps: System</string>
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
+
     <!-- QS headers -->
     <string name="qs_header_category">QS Header options</string>
     <string name="status_bar_custom_header_title">Custom header image</string>
@@ -387,4 +391,5 @@
     <string name="custom_header_provider_title">Header provider</string>
     <string name="custom_header_browse_title">Browse installed headers</string>
     <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+
 </resources>
