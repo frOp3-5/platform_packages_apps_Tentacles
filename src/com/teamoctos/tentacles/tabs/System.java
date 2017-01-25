@@ -38,7 +38,8 @@ public class System extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "System";
     private static final String SUPERSU_APP_PACKAGE = "eu.chainfire.supersu";
-    private static final String KERNELADIUTOR_APP_PACKAGE = "com.kerneladiutor.mod";
+    private static final String KERNELADIUTOR_APP_PACKAGE = "com.grarak.kerneladiutor";
+    private static final String KERNELADIUTOR_MOD_APP_PACKAGE = "com.kerneladiutor.mod";
     private static final String SUBSTRATUM_APP_PACKAGE = "projekt.substratum";
     private static final String OCTOTA_APP_PACKAGE = "com.fusionjack.octota";
 
@@ -56,6 +57,10 @@ public class System extends SettingsPreferenceFragment implements
 
         if (!Utils.isPackageInstalled(getActivity(), KERNELADIUTOR_APP_PACKAGE)) {
             getPreferenceScreen().removePreference(findPreference("kerneladiutor_settings"));
+        }
+
+        if (!Utils.isPackageInstalled(getActivity(), KERNELADIUTOR_MOD_APP_PACKAGE)) {
+            getPreferenceScreen().removePreference(findPreference("kerneladiutor_mod_settings"));
         }
 
         if (!Utils.isPackageInstalled(getActivity(), SUBSTRATUM_APP_PACKAGE)) {
