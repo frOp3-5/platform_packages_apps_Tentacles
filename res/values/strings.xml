@@ -299,8 +299,9 @@
     <string name="omniswitch_first_time_title">Warning</string>
     <string name="omniswitch_first_time_message">If using OmniSwitch as recents alterative, make sure you have OmniSwitch enabled</string>
 
-    <!-- KernelAdiutor-Mod -->
-    <string name="kerneladiutor_title">KernelAdiutor-Mod</string>
+    <!-- KernelAdiutor -->
+    <string name="kerneladiutor_mod_title">KernelAdiutor-Mod</string>
+    <string name="kerneladiutor_title">KernelAdiutor</string>
 
     <!-- Lockscreen Shortcuts -->
     <string name="lockscreen_targets_title">Bottom L/R shortcuts</string>
