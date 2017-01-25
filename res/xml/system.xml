@@ -21,10 +21,22 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- KernelAdiutor -->
     <PreferenceScreen
         android:key="kerneladiutor_settings"
         android:layout="@layout/preference_kerneladiutor"
         android:title="@string/kerneladiutor_title">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.grarak.kerneladiutor"
+            android:targetClass="com.grarak.kerneladiutor.activities.StartActivity" />
+    </PreferenceScreen>
+
+    <!-- KernelAdiutor-Mod -->
+    <PreferenceScreen
+        android:key="kerneladiutor_mod_settings"
+        android:layout="@layout/preference_kerneladiutor"
+        android:title="@string/kerneladiutor_mod_title">
         <intent
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.kerneladiutor.mod"

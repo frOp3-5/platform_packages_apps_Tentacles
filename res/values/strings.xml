@@ -100,8 +100,9 @@
     <!-- Dialog -->
     <string name="tentacles_dialog_title">About Team OctOS</string>
 
-    <!-- KernelAdiutor-Mod -->
-    <string name="kerneladiutor_title">KernelAdiutor-Mod</string>
+    <!-- KernelAdiutor -->
+    <string name="kerneladiutor_mod_title">KernelAdiutor-Mod</string>
+    <string name="kerneladiutor_title">KernelAdiutor</string>
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
