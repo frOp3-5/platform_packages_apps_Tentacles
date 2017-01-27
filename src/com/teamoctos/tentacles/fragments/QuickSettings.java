@@ -73,7 +73,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String DEFAULT_HEADER_PACKAGE = "com.android.systemui";
     private static final String CUSTOM_HEADER_IMAGE_SHADOW = "status_bar_custom_header_shadow";
     private static final String CUSTOM_HEADER_PROVIDER = "custom_header_provider";
-    private static final String CUSTOM_HEADER_BROWSE = "custom_header_browse";
+//    private static final String CUSTOM_HEADER_BROWSE = "custom_header_browse";
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
@@ -86,7 +86,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private CustomSeekBarPreference mRowsLandscape;
     private CustomSeekBarPreference mSysuiQqsCount;
     private CustomSeekBarPreference mHeaderShadow;
-    private PreferenceScreen mHeaderBrowse;
+//    private PreferenceScreen mHeaderBrowse;
     private String mDaylightHeaderProvider;
     private SwitchPreference mQsDataAdvanced;
     private SwitchPreference mLockQsDisabled;
@@ -223,8 +223,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
         mHeaderProvider.setOnPreferenceChangeListener(this);
         mDaylightHeaderPack.setEnabled(providerName.equals(mDaylightHeaderProvider));
 
-        mHeaderBrowse = (PreferenceScreen) findPreference(CUSTOM_HEADER_BROWSE);
-        mHeaderBrowse.setEnabled(isBrowseHeaderAvailable());
+//        mHeaderBrowse = (PreferenceScreen) findPreference(CUSTOM_HEADER_BROWSE);
+//        mHeaderBrowse.setEnabled(isBrowseHeaderAvailable());
     }
 
     @Override
