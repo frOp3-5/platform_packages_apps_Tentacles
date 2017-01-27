@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--  Copyright (C) 2016 Team-OctOS
-
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
   (at your option) any later version
-
   This program is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   GNU General Public License for more details.
-
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
@@ -41,6 +38,7 @@
     <string name="traffic_category">Traffic indicators</string>
     <string name="omniswitch_category">OmniSwitch</string>
     <string name="breathing_notifications_category">Breathing Notifications</string>
+    <string name="notif_ticker_category">Notification ticker</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
@@ -78,6 +76,10 @@
     <string name="status_bar_quick_qs_pulldown_off">Off</string>
     <string name="status_bar_quick_qs_pulldown_left">Left</string>
     <string name="status_bar_quick_qs_pulldown_right">Right</string>
+
+    <!-- Status bar notification ticker -->
+    <string name="ticker_title">Ticker</string>
+    <string name="ticker_summary">Enable the old status bar notification ticker. Do not use in conjunction with Heads Up.</string>
 
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_position_title">Clock position</string>
