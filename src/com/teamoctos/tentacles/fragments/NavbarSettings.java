@@ -23,6 +23,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.RemoteException;
 import android.os.UserHandle;
 import android.support.v7.preference.ListPreference;
 import android.support.v14.preference.SwitchPreference;
@@ -30,6 +31,8 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.view.IWindowManager;
+import android.view.WindowManagerGlobal;
 import android.provider.Settings;
 
 import com.android.settings.SettingsPreferenceFragment;
@@ -42,6 +45,8 @@ import com.android.internal.utils.du.Config.ButtonConfig;
 import com.android.settings.R;
 
 import com.teamoctos.tentacles.preference.CustomSeekBarPreference;
+
+import cyanogenmod.hardware.CMHardwareManager;
 
 public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -77,6 +82,25 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
         mNavbarMode = (ListPreference) findPreference(KEY_NAVBAR_MODE);
         mFlingSettings = (PreferenceScreen) findPreference(KEY_FLING_NAVBAR_SETTINGS);
         mSmartbarSettings = (PreferenceScreen) findPreference(KEY_SMARTBAR_SETTINGS);
+
+        // Only show navbar toggle on devices that have hw keys (ie home, back, menu, etc)
+        final CMHardwareManager hardware = CMHardwareManager.getInstance(getActivity());
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        boolean needsNavigationBar = false;
+        if (hardware.isSupported(CMHardwareManager.FEATURE_KEY_DISABLE)) {
+            try {
+                IWindowManager wm = WindowManagerGlobal.getWindowManagerService();
+                needsNavigationBar = wm.needsNavigationBar();
+            } catch (RemoteException e) {
+            }
+
+            if (needsNavigationBar) {
+                prefScreen.removePreference(mNavbarVisibility);
+            }
+        } else {
+            prefScreen.removePreference(mNavbarVisibility);
+        }
 
         boolean showing = Settings.Secure.getInt(getContentResolver(),
                 Settings.Secure.NAVIGATION_BAR_VISIBLE,
