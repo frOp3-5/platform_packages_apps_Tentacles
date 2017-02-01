@@ -43,10 +43,16 @@
             android:fragment="com.teamoctos.tentacles.fragments.FlingSettings" />
 
     </PreferenceCategory>
-    
+
     <PreferenceCategory
         android:key="category_navbar_general"
         android:title="@string/navbar_general_title" >
+
+           <com.teamoctos.tentacles.preference.SystemSettingSwitchPreference
+               android:key="nav_bar_dynamic"
+               android:title="@string/nav_bar_dynamic_title"
+               android:summary="@string/nav_bar_dynamic_summary"
+               android:defaultValue="false" />
 
            <com.teamoctos.tentacles.preference.CustomSeekBarPreference
                 android:key="navbar_height_portrait"
