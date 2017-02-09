@@ -65,4 +65,11 @@
         android:dependency="network_traffic_autohide"
         android:persistent="false" />
 
+    <com.teamoctos.tentacles.preference.SystemSettingSwitchPreference
+        android:key="network_traffic_magnify"
+        android:title="@string/network_traffic_magnify"
+        android:summary="@string/network_traffic_magnify_summary"
+        android:dependency="network_traffic_state"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
