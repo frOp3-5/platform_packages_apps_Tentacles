@@ -146,6 +146,8 @@
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the arrows in the traffic indicators</string>
+    <string name="network_traffic_magnify">Magnify traffic indicators</string>
+    <string name="network_traffic_magnify_summary">Magnify text in the traffic indicators</string>
 
     <!-- OmniSwitch Recents -->
     <string name="aosp_recents_title">AOSP recents</string>

@@ -50,6 +50,7 @@ public class Traffic extends SettingsPreferenceFragment
     private static final String NETWORK_TRAFFIC_PERIOD = "network_traffic_period";
     private static final String NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide";
     private static final String NETWORK_TRAFFIC_HIDEARROW = "network_traffic_hidearrow";
+    private static final String NETWORK_TRAFFIC_MAGNIFY = "network_traffic_magnify";
     private static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
 
     private ListPreference mNetTrafficState;
@@ -58,6 +59,7 @@ public class Traffic extends SettingsPreferenceFragment
     private SwitchPreference mNetTrafficAutohide;
     private CustomSeekBarPreference mNetTrafficAutohideThreshold;
     private SwitchPreference mNetTrafficHidearrow;
+    private SwitchPreference mNetTrafficMagnify;
 
     private int mNetTrafficVal;
     private int MASK_UP;
@@ -90,6 +92,12 @@ public class Traffic extends SettingsPreferenceFragment
         mNetTrafficHidearrow.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.NETWORK_TRAFFIC_HIDEARROW, 0) == 1));
         mNetTrafficHidearrow.setOnPreferenceChangeListener(this);
+
+        mNetTrafficMagnify =
+                (SwitchPreference) prefSet.findPreference(NETWORK_TRAFFIC_MAGNIFY);
+        mNetTrafficMagnify.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.NETWORK_TRAFFIC_MAGNIFY, 0) == 1));
+        mNetTrafficMagnify.setOnPreferenceChangeListener(this);
 
         mNetTrafficAutohideThreshold = (CustomSeekBarPreference) findPreference(NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD);
         int netTrafficAutohideThreshold = Settings.System.getInt(resolver,
@@ -132,12 +140,14 @@ public class Traffic extends SettingsPreferenceFragment
             mNetTrafficPeriod.setEnabled(false);
             mNetTrafficAutohide.setEnabled(false);
             mNetTrafficHidearrow.setEnabled(false);
+            mNetTrafficMagnify.setEnabled(false);
             mNetTrafficAutohideThreshold.setEnabled(false);
         } else {
             mNetTrafficUnit.setEnabled(true);
             mNetTrafficPeriod.setEnabled(true);
             mNetTrafficAutohide.setEnabled(true);
             mNetTrafficHidearrow.setEnabled(true);
+            mNetTrafficMagnify.setEnabled(true);
             mNetTrafficAutohideThreshold.setEnabled(true);
         }
     }
@@ -182,6 +192,11 @@ public class Traffic extends SettingsPreferenceFragment
             int threshold = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, threshold * 1);
+            return true;
+        } else if (preference == mNetTrafficMagnify) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_MAGNIFY, value ? 1 : 0);
             return true;
         }
         return false;
