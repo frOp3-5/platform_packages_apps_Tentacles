@@ -17,6 +17,9 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- General strings -->
+    <string name="tentacles_summary_title">Customize OctOS</string>
+
     <!-- Tabs -->
     <string name="system_category">System</string>
     <string name="lockscreen_category">Lockscreen</string>
