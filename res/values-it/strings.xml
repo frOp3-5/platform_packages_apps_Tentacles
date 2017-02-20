@@ -14,6 +14,9 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- General strings -->
+    <string name="tentacles_summary_title">Personalizza OctOS</string>
+  
     <!-- Tabs -->
     <string name="system_category">Sistema</string>
     <string name="lockscreen_category">Schermata di blocco</string>
@@ -141,7 +144,9 @@
     <string name="network_traffic_autohide">Nascondi automaticamente</string>
     <string name="network_traffic_autohide_summary">Nascondi il traffico di rete quando non c\'è attività</string>
     <string name="network_traffic_autohide_threshold">Soglia di inattività</string>
+    <string name="network_traffic_hidearrow">Nascondi frecce</string>
     <string name="network_traffic_hidearrow_summary">Nascondi le frecce nell\'indicatore di traffico</string>
+     <string name="network_traffic_magnify">Ingrandire gli indicatori di traffico</string>
     <string name="network_traffic_hidearrow_title">Nascondi frecce</string>
 
     <!-- OmniSwitch Recents -->
@@ -291,6 +296,9 @@
     <string name="smartbar_button_animation_summary">Imposta lo stile di animazione dei pulsanti principali quando vengono premuti</string>
     <string name="smartbar_button_animation_ripple">Ondulazione</string>
     <string name="smartbar_button_animation_spring">Rimbalzo</string>
+    <string name="qs_tile_animation_style_flip">Flip</string>
+    <string name="smartbar_button_animation_pixel">Pixel (tutti i pulsanti)</string>
+    <string name="smartbar_button_animation_pixel_home">Pixel (solo il pulsante Home)</string>
     <string name="smartbar_factory_reset_title">Ripristina a predefinito</string>
     <string name="smartbar_factory_reset_confirm">Sei sicuro di voler ripristinare Smart Bar alle impostazioni di fabbrica?</string>
     <string name="smartbar_ime_action_title">Azioni metodo di inserimento</string>
@@ -309,6 +317,10 @@
     <string name="smartbar_config_restore_error_toast">Errore ripristino del profilo Smartbar</string>
     <string name="navbar_buttons_alpha_title">Trasparenza pulsante</string>
 
+    <!-- Navbar dynamic color -->
+    <string name="nav_bar_dynamic_title">Colore barra di navigazione dinamico</string>
+    <string name="nav_bar_dynamic_summary">Attiva la barra di navigazione per adattare il colore scuro primario delle applicazioni. Riavvia l\'applicazione desiderata per vedere l\'effetto.</string>
+  
     <!-- Lockscreen Shortcuts -->
     <string name="lockscreen_targets_title">Scorciatoie angoli inferiori</string>
 
@@ -424,5 +436,37 @@
     <string name="qs_tile_animation_duration_fast">Veloce</string>
     <string name="qs_set_animation_style">Animazione impostata su %1$s</string>
     <string name="qs_set_animation_duration">Durata animazione impostata su %1$s</string>
+  
+    <!-- QS headers -->
+    <string name="qs_header_category">Opzioni intestazione impostazioni rapide</string>
+    <string name="status_bar_custom_header_title">Immagine intestazione personalizzata</string>
+    <string name="status_bar_custom_header_summary">Abilita l\'immagine nell\'intestazione del pannello notifiche</string>
+    <string name="daylight_header_pack_title">Pacchetto immagini intestazione</string>
+    <string name="status_bar_custom_header_shadow_title">Ombra immagine intestazione</string>
+    <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
+    <string name="static_header_provider_title">Statico</string>
+    <string name="daylight_header_provider_title">Dinamico</string>
+    <string name="custom_header_provider_title">Provider intestazione</string>
+    <string name="custom_header_browse_title">Sfoglia le intestazioni installate</string>
+    <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine da utilizzare per la modalità statica</string>
+
+    <!-- Quick settings tiles columns and rows config -->
+    <string name="qs_layout_category">Disposizioni tile impostazioni rapide</string>
+    <string name="qs_rows_portrait_title">Righe (verticale)</string>
+    <string name="qs_rows_landscape_title">Righe (orizzontale)</string>
+    <string name="qs_columns_title">Colonne</string>
+    <string name="qs_small_tiles_title">Tile piccoli</string>
+
+    <!-- Quick Settings on lockscreen -->
+    <string name="lockscreen_qs_disabled_title">Disabilita impostazioni rapide quando è bloccato</string>
+    <string name="lockscreen_qs_disabled_summary">Disabilita le scorciatoie e l\'espansione delle impostazioni rapide su schermi con blocco sicuro</string>
+
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">Dati attivi al tocco</string>
+    <string name="qs_advanced_data_summary">Abilita l\'azione per attivare o disattivare i dati con un tocco</string>
+
+    <!-- Custom battery tile -->
+    <string name="status_bar_battery_style_tile_title">Stile tile batteria personalizzato</string>
+    <string name="status_bar_battery_style_tile_summary">Permette di impostare lo stesso stile di icona della batteria scelta per la barra di stato</string>
 
 </resources>
