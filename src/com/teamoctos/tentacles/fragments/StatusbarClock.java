@@ -247,15 +247,10 @@ public class StatusbarClock extends SettingsPreferenceFragment implements OnPref
                 String clockStyle = mStatusBarClock.getValue();
                 int showDate = Settings.System.getInt(getActivity()
                         .getContentResolver(), Settings.System.STATUS_BAR_DATE, 0);
-                if ("0".equals(clockStyle)) {
-                    mStatusBarDate.setEnabled(false);
-                    mStatusBarDateStyle.setEnabled(false);
-                    mStatusBarDateFormat.setEnabled(false);
-                } else {
-                    mStatusBarDate.setEnabled(true);
-                    mStatusBarDateStyle.setEnabled(showDate != 0);
-                    mStatusBarDateFormat.setEnabled(showDate != 0);
-                }
+
+                mStatusBarDate.setEnabled(true);
+                mStatusBarDateStyle.setEnabled(showDate != 0);
+                mStatusBarDateFormat.setEnabled(showDate != 0);
             }
         });
     }
