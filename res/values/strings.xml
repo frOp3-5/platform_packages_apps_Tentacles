@@ -362,6 +362,10 @@
     <string name="lockscreen_visualizer_title">Display music visualizer</string>
     <string name="lockscreen_visualizer_summary">Shows a visualizer on the lock screen when music is playing</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen battery info</string>
+    <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
+
     <!-- title for lock screen weather preference -->
     <string name="lockscreen_weather_enabled_title">Show weather</string>
     <string name="lockscreen_weather_enabled_summary">Displays weather information on the lock screen</string>
