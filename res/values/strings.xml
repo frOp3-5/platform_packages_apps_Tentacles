@@ -85,10 +85,6 @@
     <string name="status_bar_quick_qs_pulldown_left">Left</string>
     <string name="status_bar_quick_qs_pulldown_right">Right</string>
 
-    <!-- Status bar notification ticker -->
-    <string name="ticker_title">Ticker</string>
-    <string name="ticker_summary">Enable the old status bar notification ticker. Do not use in conjunction with Heads Up.</string>
-
     <!-- Status bar - Clock -->
     <string name="status_bar_clock_position_title">Clock position</string>
     <string name="status_bar_clock_position_right">Right</string>
@@ -510,6 +506,13 @@
     <string name="qs_rows_landscape_title">Rows (landscape)</string>
     <string name="qs_columns_title">Columns</string>
     <string name="qs_small_tiles_title">Small QS tiles</string>
+
+    <!-- Status bar notification ticker -->
+    <string name="ticker_title">Ticker</string>
+    <string name="ticker_summary">Enable the old status bar notification ticker. Do not use in conjunction with Heads Up.</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
 
     <!-- Quick Settings on lockscreen -->
     <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
